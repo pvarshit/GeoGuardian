@@ -15,9 +15,12 @@ Think of the system like a courtroom. You have different "experts" (Agents) who 
 
 ### 🔬 Sensor Fusion Agent (The Analyst)
 *   **Role**: Monitors the 24/7 stream of IoT sensor data (AQI, PM2.5, NO2).
-*   **Task**: Detect spikes that are statistically significant. "Is this high PM2.5 normal for rush hour, or is it an anomaly?"
-*   **Tech**: Statistical Anomaly Detection (Isolation Forest) or Time-series forecasting.
-*   **Output**: `{"anomaly": true, "severity": "critical", "trend": "rapidly_rising"}`
+*   **Task**: Detect spikes and correlates them with external factors (News, Weather).
+*   **Implemented Features**:
+    *   **Smart News Scraper**: Fetches city-specific news from Google News RSS to explain pollution causes.
+    *   **Historical Explorer**: Aggregates Excel data archives to visualize long-term trends (PM2.5 vs Temp).
+    *   **Live Prediction**: Uses LightGBM/RF models to forecast future AQI.
+*   **Output**: `{"anomaly": true, "news_context": [...], "forecast": [...]}`
 
 ### 📜 Document Intelligence Agent (The Lawyer)
 *   **Role**: Reads environmental regulations and company compliance reports (PDFs).

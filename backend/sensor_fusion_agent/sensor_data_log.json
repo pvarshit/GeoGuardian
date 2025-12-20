@@ -1,0 +1,574 @@
+[
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T01:33:40",
+      "air_quality": {
+        "aqi_index": 375,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1066.39,
+          "no": 0.01,
+          "no2": 19.38,
+          "o3": 16.0,
+          "so2": 1.51,
+          "pm2_5": 217.66,
+          "pm10": 253.09,
+          "nh3": 2.13
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 100,
+        "pressure": 1015,
+        "wind_speed": 2.06,
+        "wind_deg": 100,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 375 | PM2.5: 217.7 | PM10: 253.1). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T01:39:35.703843"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T01:33:40",
+      "air_quality": {
+        "aqi_index": 375,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1066.39,
+          "no": 0.01,
+          "no2": 19.38,
+          "o3": 16.0,
+          "so2": 1.51,
+          "pm2_5": 217.66,
+          "pm10": 253.09,
+          "nh3": 2.13
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 100,
+        "pressure": 1015,
+        "wind_speed": 2.06,
+        "wind_deg": 100,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 375 | PM2.5: 217.7 | PM10: 253.1). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T01:39:35.918861"
+  },
+  {
+    "type": "search_result",
+    "query": "New Delhi",
+    "location": "New Delhi",
+    "data": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T01:33:40",
+      "air_quality": {
+        "aqi_index": 375,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1066.39,
+          "no": 0.01,
+          "no2": 19.38,
+          "o3": 16.0,
+          "so2": 1.51,
+          "pm2_5": 217.66,
+          "pm10": 253.09,
+          "nh3": 2.13
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 100,
+        "pressure": 1015,
+        "wind_speed": 2.06,
+        "wind_deg": 100,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "Search Result for New Delhi: Air quality is Very Poor (AQI: 375 | PM2.5: 217.7 | PM10: 253.1). Hazardous levels. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T01:39:39.801869"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T01:33:40",
+      "air_quality": {
+        "aqi_index": 375,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1066.39,
+          "no": 0.01,
+          "no2": 19.38,
+          "o3": 16.0,
+          "so2": 1.51,
+          "pm2_5": 217.66,
+          "pm10": 253.09,
+          "nh3": 2.13
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 100,
+        "pressure": 1015,
+        "wind_speed": 2.06,
+        "wind_deg": 100,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 375 | PM2.5: 217.7 | PM10: 253.1). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T01:40:08.754439"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T01:33:40",
+      "air_quality": {
+        "aqi_index": 375,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1066.39,
+          "no": 0.01,
+          "no2": 19.38,
+          "o3": 16.0,
+          "so2": 1.51,
+          "pm2_5": 217.66,
+          "pm10": 253.09,
+          "nh3": 2.13
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 100,
+        "pressure": 1015,
+        "wind_speed": 2.06,
+        "wind_deg": 100,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 375 | PM2.5: 217.7 | PM10: 253.1). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T01:40:08.963933"
+  },
+  {
+    "type": "search_result",
+    "query": "Ahmedabad",
+    "location": "Ahmedabad",
+    "data": {
+      "lat": 23.0216238,
+      "lon": 72.5797068,
+      "timestamp_utc": "2025-12-21T01:40:23",
+      "air_quality": {
+        "aqi_index": 321,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 720.83,
+          "no": 0.0,
+          "no2": 11.35,
+          "o3": 74.61,
+          "so2": 6.37,
+          "pm2_5": 147.16,
+          "pm10": 166.61,
+          "nh3": 3.82
+        }
+      },
+      "weather": {
+        "temperature_c": 21.04,
+        "humidity": 56,
+        "pressure": 1013,
+        "wind_speed": 2.06,
+        "wind_deg": 80,
+        "clouds": 52,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "Search Result for Ahmedabad: Air quality is Very Poor (AQI: 321 | PM2.5: 147.2 | PM10: 166.6). Hazardous levels. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T01:40:24.294907"
+  },
+  {
+    "type": "search_result",
+    "query": "Pune",
+    "location": "Pune",
+    "data": {
+      "lat": 18.521428,
+      "lon": 73.8544541,
+      "timestamp_utc": "2025-12-21T01:36:29",
+      "air_quality": {
+        "aqi_index": 99,
+        "aqi_category": "Fair",
+        "components": {
+          "co": 373.1,
+          "no": 0.0,
+          "no2": 4.64,
+          "o3": 80.41,
+          "so2": 2.94,
+          "pm2_5": 59.7,
+          "pm10": 69.33,
+          "nh3": 1.15
+        }
+      },
+      "weather": {
+        "temperature_c": 16.77,
+        "humidity": 30,
+        "pressure": 1014,
+        "wind_speed": 1.63,
+        "wind_deg": 151,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Fair",
+      "agent_insight": "Search Result for Pune: Air quality is Fair (AQI: 99 | PM2.5: 59.7 | PM10: 69.3). Good air. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T01:41:07.464489"
+  },
+  {
+    "type": "ask_interaction",
+    "query": "What's the weather in Tokyo?",
+    "city_resolved": "Tokyo",
+    "intent": "weather",
+    "response": "The weather in Tokyo is currently quite pleasant, with a temperature of 9.51 degrees. The air quality is good, with an AQI of 2 and a PM2.5 level of 1.4. Unfortunately, I don't have the 3-day forecast trend available at the moment.",
+    "timestamp_logged": "2025-12-21T01:44:32.323278"
+  },
+  {
+    "type": "search_result",
+    "query": "Tokyo",
+    "location": "Tokyo",
+    "data": {
+      "lat": 35.6828387,
+      "lon": 139.7594549,
+      "timestamp_utc": "2025-12-21T01:44:30",
+      "air_quality": {
+        "aqi_index": 2,
+        "aqi_category": "Good",
+        "components": {
+          "co": 129.83,
+          "no": 0.0,
+          "no2": 1.26,
+          "o3": 93.25,
+          "so2": 1.41,
+          "pm2_5": 1.4,
+          "pm10": 2.19,
+          "nh3": 0.05
+        }
+      },
+      "weather": {
+        "temperature_c": 9.51,
+        "humidity": 93,
+        "pressure": 1018,
+        "wind_speed": 1.54,
+        "wind_deg": 310,
+        "clouds": 75,
+        "description": ""
+      },
+      "dispersion_score": 0.92,
+      "health_risk_level": "Good",
+      "agent_insight": "Search Result for Tokyo: Air quality is Good (AQI: 2 | PM2.5: 1.4 | PM10: 2.2). Good air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T01:44:32.488036"
+  },
+  {
+    "type": "ask_interaction",
+    "query": "tokyo",
+    "city_resolved": "Tokyo",
+    "intent": "general",
+    "response": "Tokyo is the city you're looking for. Currently, the temperature is 9.51 degrees, and the air quality is good with an AQI of 2 and a PM2.5 level of 1.4. Unfortunately, I don't have the 3-day forecast trend for you at the moment. If you're planning a visit, I recommend checking the forecast before you go.",
+    "timestamp_logged": "2025-12-21T01:53:28.832389"
+  },
+  {
+    "type": "search_result",
+    "query": "Tokyo",
+    "location": "Tokyo",
+    "data": {
+      "lat": 35.6828387,
+      "lon": 139.7594549,
+      "timestamp_utc": "2025-12-21T01:53:27",
+      "air_quality": {
+        "aqi_index": 2,
+        "aqi_category": "Good",
+        "components": {
+          "co": 129.83,
+          "no": 0.0,
+          "no2": 1.26,
+          "o3": 93.25,
+          "so2": 1.41,
+          "pm2_5": 1.4,
+          "pm10": 2.19,
+          "nh3": 0.05
+        }
+      },
+      "weather": {
+        "temperature_c": 9.51,
+        "humidity": 93,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 280,
+        "clouds": 75,
+        "description": ""
+      },
+      "dispersion_score": 1.54,
+      "health_risk_level": "Good",
+      "agent_insight": "Search Result for Tokyo: Air quality is Good (AQI: 2 | PM2.5: 1.4 | PM10: 2.2). Good air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T01:53:29.001943"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T01:53:47",
+      "air_quality": {
+        "aqi_index": 375,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1066.39,
+          "no": 0.01,
+          "no2": 19.38,
+          "o3": 16.0,
+          "so2": 1.51,
+          "pm2_5": 217.66,
+          "pm10": 253.09,
+          "nh3": 2.13
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1015,
+        "wind_speed": 3.09,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 375 | PM2.5: 217.7 | PM10: 253.1). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T01:53:48.888805"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T01:53:47",
+      "air_quality": {
+        "aqi_index": 375,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1066.39,
+          "no": 0.01,
+          "no2": 19.38,
+          "o3": 16.0,
+          "so2": 1.51,
+          "pm2_5": 217.66,
+          "pm10": 253.09,
+          "nh3": 2.13
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1015,
+        "wind_speed": 3.09,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 375 | PM2.5: 217.7 | PM10: 253.1). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T01:53:49.117235"
+  },
+  {
+    "type": "search_result",
+    "query": "tokyo",
+    "location": "Tokyo",
+    "data": {
+      "lat": 35.6828387,
+      "lon": 139.7594549,
+      "timestamp_utc": "2025-12-21T01:53:27",
+      "air_quality": {
+        "aqi_index": 2,
+        "aqi_category": "Good",
+        "components": {
+          "co": 129.83,
+          "no": 0.0,
+          "no2": 1.26,
+          "o3": 93.25,
+          "so2": 1.41,
+          "pm2_5": 1.4,
+          "pm10": 2.19,
+          "nh3": 0.05
+        }
+      },
+      "weather": {
+        "temperature_c": 9.51,
+        "humidity": 93,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 280,
+        "clouds": 75,
+        "description": ""
+      },
+      "dispersion_score": 1.54,
+      "health_risk_level": "Good",
+      "agent_insight": "Search Result for Tokyo: Air quality is Good (AQI: 2 | PM2.5: 1.4 | PM10: 2.2). Good air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T01:53:53.048459"
+  },
+  {
+    "type": "search_result",
+    "query": "Pune",
+    "location": "Pune",
+    "data": {
+      "lat": 18.521428,
+      "lon": 73.8544541,
+      "timestamp_utc": "2025-12-21T01:50:54",
+      "air_quality": {
+        "aqi_index": 99,
+        "aqi_category": "Fair",
+        "components": {
+          "co": 373.1,
+          "no": 0.0,
+          "no2": 4.64,
+          "o3": 80.41,
+          "so2": 2.94,
+          "pm2_5": 59.7,
+          "pm10": 69.33,
+          "nh3": 1.15
+        }
+      },
+      "weather": {
+        "temperature_c": 16.77,
+        "humidity": 30,
+        "pressure": 1014,
+        "wind_speed": 1.63,
+        "wind_deg": 151,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Fair",
+      "agent_insight": "Search Result for Pune: Air quality is Fair (AQI: 99 | PM2.5: 59.7 | PM10: 69.3). Good air. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T01:54:08.915731"
+  }
+]

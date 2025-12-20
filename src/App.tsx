@@ -7,6 +7,7 @@ import About from './pages/About';
 import SensorDetail from './pages/SensorDetail';
 import ReportIssue from './pages/ReportIssue';
 import GlobalMap from './pages/GlobalMap';
+import AnalyticsDashboard from './components/AnalyticsDashboard';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/map" element={<GlobalMap />} />
       <Route path="/explorer" element={<Explorer />} />
+      <Route path="/analytics" element={<AnalyticsDashboard />} />
       <Route path="/about" element={<About />} />
       <Route path="/sensors/:id" element={<SensorDetail />} />
       <Route path="/report" element={<ReportIssue />} />

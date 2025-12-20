@@ -61,8 +61,9 @@ The system follows a **Modern Agentic Architecture**:
 - [ ] **Agent: Satellite Vision**:
     - Function: Detect oil slicks, smoke plumes, or deforestation.
     - Output: JSON bounding boxes + confidence scores.
-- [ ] **Agent: Sensor Fusion**:
+- [x] **Agent: Sensor Fusion**:
     - Function: Time-series anomaly detection (e.g., "Sudden spike in PM2.5 at 3 AM").
+    - **Status**: Implemented with LightGBM & Google News integration.
 - [ ] **Agent: Document Intelligence (RAG)**:
     - Function: Extract company names, chemical limits, and legal violations from text.
 - [ ] **Agent: Causal Reasoning (The "Judge")**:
@@ -77,8 +78,9 @@ The system follows a **Modern Agentic Architecture**:
     - `GET /api/incidents/{id}`: Detailed view (Evidence packet).
 - [ ] **Map Layers Endpoint**:
     - `GET /api/map/layers`: GeoJSON features for the dashboard map.
-- [ ] **Dashboard Stats**:
-    - `GET /api/overview/live-stats`: Real-time counters.
+- [x] **Dashboard Stats**:
+    - `GET /explorer/history`: Historical trends and breakdown.
+    - `GET /news`: Live context awareness.
 
 ### Phase 5: Frontend Integration
 **Goal**: Connect the React UI to the real backend.

@@ -1,0 +1,362 @@
+[
+  {
+    "lat": 28.6138954,
+    "lon": 77.2090057,
+    "timestamp_utc": "2025-12-21T00:37:50",
+    "air_quality": {
+      "aqi_index": 371,
+      "aqi_category": "Very Poor",
+      "components": {
+        "co": 1065.59,
+        "no": 0.02,
+        "no2": 22.12,
+        "o3": 17.43,
+        "so2": 1.84,
+        "pm2_5": 212.0,
+        "pm10": 251.49,
+        "nh3": 2.33
+      }
+    },
+    "weather": {
+      "temperature_c": 12.07,
+      "humidity": 100,
+      "pressure": 1014,
+      "wind_speed": 2.06,
+      "wind_deg": 120,
+      "clouds": 100,
+      "description": ""
+    },
+    "dispersion_score": 0.0,
+    "health_risk_level": "Very Poor",
+    "agent_insight": "Search Result for New Delhi: Air quality is Very Poor (AQI: 371 | PM2.5: 212.0 | PM10: 251.5). Hazardous levels. Stagnant air.",
+    "data": {
+      "forecast_3day": []
+    },
+    "rag_context": "Real-time sensor data for New Delhi.",
+    "source_agent": "SensorFusionAgent"
+  },
+  {
+    "lat": 17.360589,
+    "lon": 78.4740613,
+    "timestamp_utc": "2025-12-21T00:32:20",
+    "air_quality": {
+      "aqi_index": 208,
+      "aqi_category": "Poor",
+      "components": {
+        "co": 353.07,
+        "no": 0.0,
+        "no2": 4.69,
+        "o3": 82.14,
+        "so2": 5.29,
+        "pm2_5": 92.32,
+        "pm10": 99.27,
+        "nh3": 0.56
+      }
+    },
+    "weather": {
+      "temperature_c": 12.68,
+      "humidity": 87,
+      "pressure": 1014,
+      "wind_speed": 1.54,
+      "wind_deg": 110,
+      "clouds": 51,
+      "description": ""
+    },
+    "dispersion_score": 0.0,
+    "health_risk_level": "Poor",
+    "agent_insight": "Search Result for Hyderabad: Air quality is Poor (AQI: 208 | PM2.5: 92.3 | PM10: 99.3). Hazardous levels. Stagnant air.",
+    "data": {
+      "forecast_3day": []
+    },
+    "rag_context": "Real-time sensor data for Hyderabad.",
+    "source_agent": "SensorFusionAgent"
+  },
+  {
+    "lat": 19.0785451,
+    "lon": 72.878176,
+    "timestamp_utc": "2025-12-21T00:37:44",
+    "air_quality": {
+      "aqi_index": 173,
+      "aqi_category": "Moderate",
+      "components": {
+        "co": 349.19,
+        "no": 0.0,
+        "no2": 2.0,
+        "o3": 161.74,
+        "so2": 17.24,
+        "pm2_5": 81.9,
+        "pm10": 94.19,
+        "nh3": 0.0
+      }
+    },
+    "weather": {
+      "temperature_c": 26.03,
+      "humidity": 31,
+      "pressure": 1011,
+      "wind_speed": 2.57,
+      "wind_deg": 150,
+      "clouds": 99,
+      "description": ""
+    },
+    "dispersion_score": 0.0,
+    "health_risk_level": "Moderate",
+    "agent_insight": "Search Result for Mumbai: Air quality is Moderate (AQI: 173 | PM2.5: 81.9 | PM10: 94.2). Acceptable. Stagnant air.",
+    "data": {
+      "forecast_3day": []
+    },
+    "rag_context": "Real-time sensor data for Mumbai.",
+    "source_agent": "SensorFusionAgent"
+  },
+  {
+    "lat": 12.9767936,
+    "lon": 77.590082,
+    "timestamp_utc": "2025-12-21T00:31:50",
+    "air_quality": {
+      "aqi_index": 232,
+      "aqi_category": "Poor",
+      "components": {
+        "co": 415.16,
+        "no": 0.0,
+        "no2": 6.98,
+        "o3": 84.77,
+        "so2": 5.31,
+        "pm2_5": 99.63,
+        "pm10": 109.51,
+        "nh3": 2.27
+      }
+    },
+    "weather": {
+      "temperature_c": 16.34,
+      "humidity": 80,
+      "pressure": 1014,
+      "wind_speed": 4.02,
+      "wind_deg": 86,
+      "clouds": 20,
+      "description": ""
+    },
+    "dispersion_score": 0.0,
+    "health_risk_level": "Poor",
+    "agent_insight": "Search Result for Bengaluru: Air quality is Poor (AQI: 232 | PM2.5: 99.6 | PM10: 109.5). Hazardous levels. Stagnant air.",
+    "data": {
+      "forecast_3day": []
+    },
+    "rag_context": "Real-time sensor data for Bangalore.",
+    "source_agent": "SensorFusionAgent"
+  },
+  {
+    "lat": 13.0836939,
+    "lon": 80.270186,
+    "timestamp_utc": "2025-12-21T00:40:28",
+    "air_quality": {
+      "aqi_index": 271,
+      "aqi_category": "Poor",
+      "components": {
+        "co": 474.6,
+        "no": 0.0,
+        "no2": 8.36,
+        "o3": 80.67,
+        "so2": 3.72,
+        "pm2_5": 111.27,
+        "pm10": 121.23,
+        "nh3": 0.6
+      }
+    },
+    "weather": {
+      "temperature_c": 24.19,
+      "humidity": 83,
+      "pressure": 1013,
+      "wind_speed": 1.03,
+      "wind_deg": 0,
+      "clouds": 40,
+      "description": ""
+    },
+    "dispersion_score": 0.0,
+    "health_risk_level": "Poor",
+    "agent_insight": "Search Result for Chennai: Air quality is Poor (AQI: 271 | PM2.5: 111.3 | PM10: 121.2). Hazardous levels. Stagnant air.",
+    "data": {
+      "forecast_3day": []
+    },
+    "rag_context": "Real-time sensor data for Chennai.",
+    "source_agent": "SensorFusionAgent"
+  },
+  {
+    "lat": 22.5414185,
+    "lon": 88.35769124388872,
+    "timestamp_utc": "2025-12-21T00:40:28",
+    "air_quality": {
+      "aqi_index": 404,
+      "aqi_category": "Severe",
+      "components": {
+        "co": 1078.72,
+        "no": 0.0,
+        "no2": 11.59,
+        "o3": 110.4,
+        "so2": 18.58,
+        "pm2_5": 274.42,
+        "pm10": 294.89,
+        "nh3": 12.59
+      }
+    },
+    "weather": {
+      "temperature_c": 15.96,
+      "humidity": 94,
+      "pressure": 1013,
+      "wind_speed": 3.09,
+      "wind_deg": 340,
+      "clouds": 40,
+      "description": ""
+    },
+    "dispersion_score": 0.0,
+    "health_risk_level": "Severe",
+    "agent_insight": "Search Result for Kolkata: Air quality is Severe (AQI: 404 | PM2.5: 274.4 | PM10: 294.9). Hazardous levels. Stagnant air.",
+    "data": {
+      "forecast_3day": []
+    },
+    "rag_context": "Real-time sensor data for Kolkata.",
+    "source_agent": "SensorFusionAgent"
+  },
+  {
+    "lat": 18.521428,
+    "lon": 73.8544541,
+    "timestamp_utc": "2025-12-21T00:36:19",
+    "air_quality": {
+      "aqi_index": 107,
+      "aqi_category": "Moderate",
+      "components": {
+        "co": 367.34,
+        "no": 0.0,
+        "no2": 4.65,
+        "o3": 92.37,
+        "so2": 3.84,
+        "pm2_5": 61.89,
+        "pm10": 72.26,
+        "nh3": 1.16
+      }
+    },
+    "weather": {
+      "temperature_c": 17.36,
+      "humidity": 28,
+      "pressure": 1014,
+      "wind_speed": 2.07,
+      "wind_deg": 144,
+      "clouds": 100,
+      "description": ""
+    },
+    "dispersion_score": 0.0,
+    "health_risk_level": "Moderate",
+    "agent_insight": "Search Result for Pune: Air quality is Moderate (AQI: 107 | PM2.5: 61.9 | PM10: 72.3). Acceptable. Stagnant air.",
+    "data": {
+      "forecast_3day": []
+    },
+    "rag_context": "Real-time sensor data for Pune.",
+    "source_agent": "SensorFusionAgent"
+  },
+  {
+    "lat": 23.0216238,
+    "lon": 72.5797068,
+    "timestamp_utc": "2025-12-21T00:40:28",
+    "air_quality": {
+      "aqi_index": 316,
+      "aqi_category": "Very Poor",
+      "components": {
+        "co": 690.12,
+        "no": 0.0,
+        "no2": 11.69,
+        "o3": 79.09,
+        "so2": 6.77,
+        "pm2_5": 140.82,
+        "pm10": 160.07,
+        "nh3": 4.34
+      }
+    },
+    "weather": {
+      "temperature_c": 21.04,
+      "humidity": 60,
+      "pressure": 1013,
+      "wind_speed": 1.03,
+      "wind_deg": 70,
+      "clouds": 5,
+      "description": ""
+    },
+    "dispersion_score": 0.0,
+    "health_risk_level": "Very Poor",
+    "agent_insight": "Search Result for Ahmedabad: Air quality is Very Poor (AQI: 316 | PM2.5: 140.8 | PM10: 160.1). Hazardous levels. Stagnant air.",
+    "data": {
+      "forecast_3day": []
+    },
+    "rag_context": "Real-time sensor data for Ahmedabad.",
+    "source_agent": "SensorFusionAgent"
+  },
+  {
+    "lat": 26.9154576,
+    "lon": 75.8189817,
+    "timestamp_utc": "2025-12-21T00:40:28",
+    "air_quality": {
+      "aqi_index": 304,
+      "aqi_category": "Very Poor",
+      "components": {
+        "co": 508.2,
+        "no": 0.0,
+        "no2": 10.89,
+        "o3": 48.72,
+        "so2": 2.43,
+        "pm2_5": 124.45,
+        "pm10": 140.51,
+        "nh3": 1.15
+      }
+    },
+    "weather": {
+      "temperature_c": 14.6,
+      "humidity": 88,
+      "pressure": 1014,
+      "wind_speed": 1.03,
+      "wind_deg": 70,
+      "clouds": 12,
+      "description": ""
+    },
+    "dispersion_score": 0.0,
+    "health_risk_level": "Very Poor",
+    "agent_insight": "Search Result for Jaipur: Air quality is Very Poor (AQI: 304 | PM2.5: 124.5 | PM10: 140.5). Hazardous levels. Stagnant air.",
+    "data": {
+      "forecast_3day": []
+    },
+    "rag_context": "Real-time sensor data for Jaipur.",
+    "source_agent": "SensorFusionAgent"
+  },
+  {
+    "lat": 26.8381,
+    "lon": 80.9346001,
+    "timestamp_utc": "2025-12-21T00:32:57",
+    "air_quality": {
+      "aqi_index": 413,
+      "aqi_category": "Severe",
+      "components": {
+        "co": 1562.0,
+        "no": 0.0,
+        "no2": 14.84,
+        "o3": 49.14,
+        "so2": 3.38,
+        "pm2_5": 343.98,
+        "pm10": 367.85,
+        "nh3": 4.23
+      }
+    },
+    "weather": {
+      "temperature_c": 11.01,
+      "humidity": 100,
+      "pressure": 1015,
+      "wind_speed": 0.0,
+      "wind_deg": 0,
+      "clouds": 100,
+      "description": ""
+    },
+    "dispersion_score": 0.0,
+    "health_risk_level": "Severe",
+    "agent_insight": "Search Result for Lucknow: Air quality is Severe (AQI: 413 | PM2.5: 344.0 | PM10: 367.9). Hazardous levels. Stagnant air.",
+    "data": {
+      "forecast_3day": []
+    },
+    "rag_context": "Real-time sensor data for Lucknow.",
+    "source_agent": "SensorFusionAgent"
+  }
+]

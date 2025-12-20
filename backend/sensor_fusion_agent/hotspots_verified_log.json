@@ -1,0 +1,212 @@
+[
+  {
+    "lat": 28.6138954,
+    "lon": 77.2090057,
+    "timestamp_utc": "2025-12-20T21:45:32",
+    "air_quality": {
+      "aqi_index": 5,
+      "aqi_category": "Very Poor",
+      "components": {
+        "co": 973.26,
+        "no": 0.01,
+        "no2": 26.91,
+        "o3": 30.1,
+        "so2": 3.38,
+        "pm2_5": 189.37,
+        "pm10": 237.4,
+        "nh3": 4.32
+      }
+    },
+    "weather": {
+      "temperature_c": 12.07,
+      "humidity": 94,
+      "pressure": 1015,
+      "wind_speed": 2.06,
+      "wind_deg": 120,
+      "clouds": 100
+    },
+    "dispersion_score": 0.21,
+    "health_risk_level": "Very Poor",
+    "agent_insight": "New Delhi: Air quality is Very Poor (PM2.5: 189.4\u00b5g/m\u00b3). High pollution detected. Stagnant air trapping pollutants."
+  },
+  {
+    "lat": 19.0785451,
+    "lon": 72.878176,
+    "timestamp_utc": "2025-12-20T21:52:18",
+    "air_quality": {
+      "aqi_index": 5,
+      "aqi_category": "Very Poor",
+      "components": {
+        "co": 406.4,
+        "no": 0.0,
+        "no2": 1.85,
+        "o3": 206.77,
+        "so2": 19.24,
+        "pm2_5": 95.55,
+        "pm10": 107.69,
+        "nh3": 0.0
+      }
+    },
+    "weather": {
+      "temperature_c": 27.03,
+      "humidity": 44,
+      "pressure": 1012,
+      "wind_speed": 2.06,
+      "wind_deg": 140,
+      "clouds": 23
+    },
+    "dispersion_score": 0.52,
+    "health_risk_level": "Very Poor",
+    "agent_insight": "Mumbai: Air quality is Very Poor (PM2.5: 95.5\u00b5g/m\u00b3). High pollution detected. Stagnant air trapping pollutants."
+  },
+  {
+    "lat": 17.360589,
+    "lon": 78.4740613,
+    "timestamp_utc": "2025-12-20T21:49:50",
+    "air_quality": {
+      "aqi_index": 5,
+      "aqi_category": "Very Poor",
+      "components": {
+        "co": 348.41,
+        "no": 0.0,
+        "no2": 6.38,
+        "o3": 96.83,
+        "so2": 8.59,
+        "pm2_5": 86.02,
+        "pm10": 93.68,
+        "nh3": 0.46
+      }
+    },
+    "weather": {
+      "temperature_c": 17.19,
+      "humidity": 59,
+      "pressure": 1015,
+      "wind_speed": 2.57,
+      "wind_deg": 100,
+      "clouds": 20
+    },
+    "dispersion_score": 0.67,
+    "health_risk_level": "Very Poor",
+    "agent_insight": "Hyderabad: Air quality is Very Poor (PM2.5: 86.0\u00b5g/m\u00b3). High pollution detected. Stagnant air trapping pollutants."
+  },
+  {
+    "lat": 12.9767936,
+    "lon": 77.590082,
+    "timestamp_utc": "2025-12-20T21:49:50",
+    "air_quality": {
+      "aqi_index": 5,
+      "aqi_category": "Very Poor",
+      "components": {
+        "co": 434.27,
+        "no": 0.0,
+        "no2": 8.9,
+        "o3": 92.51,
+        "so2": 4.99,
+        "pm2_5": 93.49,
+        "pm10": 103.96,
+        "nh3": 2.12
+      }
+    },
+    "weather": {
+      "temperature_c": 18.09,
+      "humidity": 71,
+      "pressure": 1015,
+      "wind_speed": 4.47,
+      "wind_deg": 102,
+      "clouds": 20
+    },
+    "dispersion_score": 1.16,
+    "health_risk_level": "Very Poor",
+    "agent_insight": "Bengaluru: Air quality is Very Poor (PM2.5: 93.5\u00b5g/m\u00b3). High pollution detected. Stagnant air trapping pollutants."
+  },
+  {
+    "lat": 13.0836939,
+    "lon": 80.270186,
+    "timestamp_utc": "2025-12-20T21:49:50",
+    "air_quality": {
+      "aqi_index": 5,
+      "aqi_category": "Very Poor",
+      "components": {
+        "co": 437.97,
+        "no": 0.0,
+        "no2": 8.95,
+        "o3": 97.73,
+        "so2": 4.95,
+        "pm2_5": 103.84,
+        "pm10": 113.63,
+        "nh3": 0.53
+      }
+    },
+    "weather": {
+      "temperature_c": 25.0,
+      "humidity": 78,
+      "pressure": 1014,
+      "wind_speed": 1.54,
+      "wind_deg": 0,
+      "clouds": 40
+    },
+    "dispersion_score": 0.34,
+    "health_risk_level": "Very Poor",
+    "agent_insight": "Chennai: Air quality is Very Poor (PM2.5: 103.8\u00b5g/m\u00b3). High pollution detected. Stagnant air trapping pollutants."
+  },
+  {
+    "lat": 22.5414185,
+    "lon": 88.35769124388872,
+    "timestamp_utc": "2025-12-20T21:49:50",
+    "air_quality": {
+      "aqi_index": 5,
+      "aqi_category": "Very Poor",
+      "components": {
+        "co": 978.68,
+        "no": 0.0,
+        "no2": 9.22,
+        "o3": 134.48,
+        "so2": 18.77,
+        "pm2_5": 259.67,
+        "pm10": 279.86,
+        "nh3": 15.38
+      }
+    },
+    "weather": {
+      "temperature_c": 16.96,
+      "humidity": 88,
+      "pressure": 1014,
+      "wind_speed": 3.09,
+      "wind_deg": 360,
+      "clouds": 40
+    },
+    "dispersion_score": 0.68,
+    "health_risk_level": "Very Poor",
+    "agent_insight": "Kolkata: Air quality is Very Poor (PM2.5: 259.7\u00b5g/m\u00b3). High pollution detected. Stagnant air trapping pollutants."
+  },
+  {
+    "lat": 26.7990707,
+    "lon": 82.2052321,
+    "timestamp_utc": "2025-12-20T21:49:50",
+    "air_quality": {
+      "aqi_index": 5,
+      "aqi_category": "Very Poor",
+      "components": {
+        "co": 1340.44,
+        "no": 0.0,
+        "no2": 19.1,
+        "o3": 47.78,
+        "so2": 8.07,
+        "pm2_5": 242.64,
+        "pm10": 271.26,
+        "nh3": 5.06
+      }
+    },
+    "weather": {
+      "temperature_c": 14.69,
+      "humidity": 41,
+      "pressure": 1016,
+      "wind_speed": 0.61,
+      "wind_deg": 69,
+      "clouds": 0
+    },
+    "dispersion_score": 0.18,
+    "health_risk_level": "Very Poor",
+    "agent_insight": "Ayodhya: Air quality is Very Poor (PM2.5: 242.6\u00b5g/m\u00b3). High pollution detected. Stagnant air trapping pollutants."
+  }
+]

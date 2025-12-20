@@ -70,6 +70,39 @@ When the backend (Agents + API Gateway) is ready, replace the mock imports with 
 
 The frontend components (`MetricCard`, `InsightCard`, `DataTable`) are designed to accept data props matching these interfaces, making the transition to real data seamless.
 
+
+## 🤖 Sensor Fusion Agent (Partial Backend)
+
+A Python FastAPI backend is included in `backend/sensor_fusion_agent` to power live features.
+
+### Features
+1.  **Pollution News Widget**: Fetches realtime city-specific news via Google News RSS. (No API Key required)
+2.  **Research Explorer**: Aggregates historical Excel data for analysis.
+    - Visualize trends (AQI vs PM2.5).
+    - Analyze correlations (Temp vs Pollution).
+    - Export data to CSV.
+
+### Running the Backend
+1.  Navigate to the directory:
+    ```bash
+    cd backend/sensor_fusion_agent
+    ```
+2.  Install requirements:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  Start the server:
+    ```bash
+    uvicorn main:app --host 0.0.0.0 --port 8100 --reload
+    ```
+    
+### Adding Historical Data
+To view data for other cities in the Explorer:
+1.  Obtain an `.xlsx` file with columns like `Date`, `AQI`, `PM2.5`, `Temp (degree C)`, `RH (%)`, `WS (m/s)`.
+2.  Name it with the city name (e.g., `Delhi_2024.xlsx`).
+3.  Place it in `backend/sensor_fusion_agent/data/`.
+4.  The Explorer dashboard will automatically detect it.
+
 ## 🤝 Contributing
 1.  Checkout branch `Mayoor`.
 2.  Make changes.
