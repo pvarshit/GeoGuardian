@@ -1,0 +1,2457 @@
+{
+    "tiles": [
+        {
+            "tile_name": "tile_47049_29546.jpg",
+            "path": "scanned_anomalies\\tile_47049_29546.jpg",
+            "score": 0.9031,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.424154642445142,
+                "bottom": 17.418661478382642
+            }
+        },
+        {
+            "tile_name": "tile_47049_29547.jpg",
+            "path": "scanned_anomalies\\tile_47049_29547.jpg",
+            "score": 0.9019,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47049_29548.jpg",
+            "path": "scanned_anomalies\\tile_47049_29548.jpg",
+            "score": 0.9084,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47049_29549.jpg",
+            "path": "scanned_anomalies\\tile_47049_29549.jpg",
+            "score": 0.9032,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47049_29550.jpg",
+            "path": "scanned_anomalies\\tile_47049_29550.jpg",
+            "score": 0.8947,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47049_29551.jpg",
+            "path": "scanned_anomalies\\tile_47049_29551.jpg",
+            "score": 0.9053,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47049_29552.jpg",
+            "path": "scanned_anomalies\\tile_47049_29552.jpg",
+            "score": 0.9054,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47049_29553.jpg",
+            "path": "scanned_anomalies\\tile_47049_29553.jpg",
+            "score": 0.9012,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47049_29554.jpg",
+            "path": "scanned_anomalies\\tile_47049_29554.jpg",
+            "score": 0.8994,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47049_29555.jpg",
+            "path": "scanned_anomalies\\tile_47049_29555.jpg",
+            "score": 0.8952,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47049_29556.jpg",
+            "path": "scanned_anomalies\\tile_47049_29556.jpg",
+            "score": 0.8955,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47049_29557.jpg",
+            "path": "scanned_anomalies\\tile_47049_29557.jpg",
+            "score": 0.8974,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47049_29558.jpg",
+            "path": "scanned_anomalies\\tile_47049_29558.jpg",
+            "score": 0.89,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47049_29559.jpg",
+            "path": "scanned_anomalies\\tile_47049_29559.jpg",
+            "score": 0.8383,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47049_29560.jpg",
+            "path": "scanned_anomalies\\tile_47049_29560.jpg",
+            "score": 0.8611,
+            "geo_bounds": {
+                "left": 78.4478759765625,
+                "right": 78.453369140625,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47050_29546.jpg",
+            "path": "scanned_anomalies\\tile_47050_29546.jpg",
+            "score": 0.9072,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.424154642445142,
+                "bottom": 17.418661478382642
+            }
+        },
+        {
+            "tile_name": "tile_47050_29547.jpg",
+            "path": "scanned_anomalies\\tile_47050_29547.jpg",
+            "score": 0.9029,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47050_29548.jpg",
+            "path": "scanned_anomalies\\tile_47050_29548.jpg",
+            "score": 0.9031,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47050_29549.jpg",
+            "path": "scanned_anomalies\\tile_47050_29549.jpg",
+            "score": 0.9076,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47050_29550.jpg",
+            "path": "scanned_anomalies\\tile_47050_29550.jpg",
+            "score": 0.8927,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47050_29551.jpg",
+            "path": "scanned_anomalies\\tile_47050_29551.jpg",
+            "score": 0.9058,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47050_29552.jpg",
+            "path": "scanned_anomalies\\tile_47050_29552.jpg",
+            "score": 0.9078,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47050_29553.jpg",
+            "path": "scanned_anomalies\\tile_47050_29553.jpg",
+            "score": 0.8992,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47050_29554.jpg",
+            "path": "scanned_anomalies\\tile_47050_29554.jpg",
+            "score": 0.8882,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47050_29555.jpg",
+            "path": "scanned_anomalies\\tile_47050_29555.jpg",
+            "score": 0.8945,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47050_29556.jpg",
+            "path": "scanned_anomalies\\tile_47050_29556.jpg",
+            "score": 0.8955,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47050_29557.jpg",
+            "path": "scanned_anomalies\\tile_47050_29557.jpg",
+            "score": 0.8818,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47050_29558.jpg",
+            "path": "scanned_anomalies\\tile_47050_29558.jpg",
+            "score": 0.8946,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47050_29559.jpg",
+            "path": "scanned_anomalies\\tile_47050_29559.jpg",
+            "score": 0.9031,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47050_29560.jpg",
+            "path": "scanned_anomalies\\tile_47050_29560.jpg",
+            "score": 0.8979,
+            "geo_bounds": {
+                "left": 78.453369140625,
+                "right": 78.4588623046875,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47051_29546.jpg",
+            "path": "scanned_anomalies\\tile_47051_29546.jpg",
+            "score": 0.9035,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.424154642445142,
+                "bottom": 17.418661478382642
+            }
+        },
+        {
+            "tile_name": "tile_47051_29547.jpg",
+            "path": "scanned_anomalies\\tile_47051_29547.jpg",
+            "score": 0.888,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47051_29548.jpg",
+            "path": "scanned_anomalies\\tile_47051_29548.jpg",
+            "score": 0.9009,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47051_29549.jpg",
+            "path": "scanned_anomalies\\tile_47051_29549.jpg",
+            "score": 0.8992,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47051_29550.jpg",
+            "path": "scanned_anomalies\\tile_47051_29550.jpg",
+            "score": 0.9112,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47051_29551.jpg",
+            "path": "scanned_anomalies\\tile_47051_29551.jpg",
+            "score": 0.9112,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47051_29552.jpg",
+            "path": "scanned_anomalies\\tile_47051_29552.jpg",
+            "score": 0.9096,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47051_29553.jpg",
+            "path": "scanned_anomalies\\tile_47051_29553.jpg",
+            "score": 0.8997,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47051_29554.jpg",
+            "path": "scanned_anomalies\\tile_47051_29554.jpg",
+            "score": 0.8964,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47051_29555.jpg",
+            "path": "scanned_anomalies\\tile_47051_29555.jpg",
+            "score": 0.8926,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47051_29556.jpg",
+            "path": "scanned_anomalies\\tile_47051_29556.jpg",
+            "score": 0.8821,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47051_29557.jpg",
+            "path": "scanned_anomalies\\tile_47051_29557.jpg",
+            "score": 0.8994,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47051_29558.jpg",
+            "path": "scanned_anomalies\\tile_47051_29558.jpg",
+            "score": 0.8979,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47051_29559.jpg",
+            "path": "scanned_anomalies\\tile_47051_29559.jpg",
+            "score": 0.9049,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47051_29560.jpg",
+            "path": "scanned_anomalies\\tile_47051_29560.jpg",
+            "score": 0.8989,
+            "geo_bounds": {
+                "left": 78.4588623046875,
+                "right": 78.46435546875,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47052_29546.jpg",
+            "path": "scanned_anomalies\\tile_47052_29546.jpg",
+            "score": 0.7311,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.424154642445142,
+                "bottom": 17.418661478382642
+            }
+        },
+        {
+            "tile_name": "tile_47052_29547.jpg",
+            "path": "scanned_anomalies\\tile_47052_29547.jpg",
+            "score": 0.8099,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47052_29548.jpg",
+            "path": "scanned_anomalies\\tile_47052_29548.jpg",
+            "score": 0.8958,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47052_29549.jpg",
+            "path": "scanned_anomalies\\tile_47052_29549.jpg",
+            "score": 0.9011,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47052_29550.jpg",
+            "path": "scanned_anomalies\\tile_47052_29550.jpg",
+            "score": 0.8887,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47052_29551.jpg",
+            "path": "scanned_anomalies\\tile_47052_29551.jpg",
+            "score": 0.8997,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47052_29552.jpg",
+            "path": "scanned_anomalies\\tile_47052_29552.jpg",
+            "score": 0.9062,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47052_29553.jpg",
+            "path": "scanned_anomalies\\tile_47052_29553.jpg",
+            "score": 0.9095,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47052_29554.jpg",
+            "path": "scanned_anomalies\\tile_47052_29554.jpg",
+            "score": 0.9022,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47052_29555.jpg",
+            "path": "scanned_anomalies\\tile_47052_29555.jpg",
+            "score": 0.9002,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47052_29556.jpg",
+            "path": "scanned_anomalies\\tile_47052_29556.jpg",
+            "score": 0.8823,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47052_29557.jpg",
+            "path": "scanned_anomalies\\tile_47052_29557.jpg",
+            "score": 0.8945,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47052_29558.jpg",
+            "path": "scanned_anomalies\\tile_47052_29558.jpg",
+            "score": 0.8996,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47052_29559.jpg",
+            "path": "scanned_anomalies\\tile_47052_29559.jpg",
+            "score": 0.9032,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47052_29560.jpg",
+            "path": "scanned_anomalies\\tile_47052_29560.jpg",
+            "score": 0.8989,
+            "geo_bounds": {
+                "left": 78.46435546875,
+                "right": 78.4698486328125,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47053_29547.jpg",
+            "path": "scanned_anomalies\\tile_47053_29547.jpg",
+            "score": 0.7827,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47053_29548.jpg",
+            "path": "scanned_anomalies\\tile_47053_29548.jpg",
+            "score": 0.8555,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47053_29549.jpg",
+            "path": "scanned_anomalies\\tile_47053_29549.jpg",
+            "score": 0.8963,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47053_29550.jpg",
+            "path": "scanned_anomalies\\tile_47053_29550.jpg",
+            "score": 0.9021,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47053_29551.jpg",
+            "path": "scanned_anomalies\\tile_47053_29551.jpg",
+            "score": 0.9076,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47053_29552.jpg",
+            "path": "scanned_anomalies\\tile_47053_29552.jpg",
+            "score": 0.9092,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47053_29553.jpg",
+            "path": "scanned_anomalies\\tile_47053_29553.jpg",
+            "score": 0.9061,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47053_29554.jpg",
+            "path": "scanned_anomalies\\tile_47053_29554.jpg",
+            "score": 0.9009,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47053_29555.jpg",
+            "path": "scanned_anomalies\\tile_47053_29555.jpg",
+            "score": 0.8977,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47053_29556.jpg",
+            "path": "scanned_anomalies\\tile_47053_29556.jpg",
+            "score": 0.8832,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47053_29557.jpg",
+            "path": "scanned_anomalies\\tile_47053_29557.jpg",
+            "score": 0.8993,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47053_29558.jpg",
+            "path": "scanned_anomalies\\tile_47053_29558.jpg",
+            "score": 0.905,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47053_29559.jpg",
+            "path": "scanned_anomalies\\tile_47053_29559.jpg",
+            "score": 0.9048,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47053_29560.jpg",
+            "path": "scanned_anomalies\\tile_47053_29560.jpg",
+            "score": 0.898,
+            "geo_bounds": {
+                "left": 78.4698486328125,
+                "right": 78.475341796875,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47054_29547.jpg",
+            "path": "scanned_anomalies\\tile_47054_29547.jpg",
+            "score": 0.6956,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47054_29548.jpg",
+            "path": "scanned_anomalies\\tile_47054_29548.jpg",
+            "score": 0.868,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47054_29549.jpg",
+            "path": "scanned_anomalies\\tile_47054_29549.jpg",
+            "score": 0.9046,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47054_29550.jpg",
+            "path": "scanned_anomalies\\tile_47054_29550.jpg",
+            "score": 0.9113,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47054_29551.jpg",
+            "path": "scanned_anomalies\\tile_47054_29551.jpg",
+            "score": 0.9108,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47054_29552.jpg",
+            "path": "scanned_anomalies\\tile_47054_29552.jpg",
+            "score": 0.9065,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47054_29553.jpg",
+            "path": "scanned_anomalies\\tile_47054_29553.jpg",
+            "score": 0.9097,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47054_29554.jpg",
+            "path": "scanned_anomalies\\tile_47054_29554.jpg",
+            "score": 0.9044,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47054_29555.jpg",
+            "path": "scanned_anomalies\\tile_47054_29555.jpg",
+            "score": 0.8872,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47054_29556.jpg",
+            "path": "scanned_anomalies\\tile_47054_29556.jpg",
+            "score": 0.8959,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47054_29557.jpg",
+            "path": "scanned_anomalies\\tile_47054_29557.jpg",
+            "score": 0.9035,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47054_29558.jpg",
+            "path": "scanned_anomalies\\tile_47054_29558.jpg",
+            "score": 0.907,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47054_29559.jpg",
+            "path": "scanned_anomalies\\tile_47054_29559.jpg",
+            "score": 0.902,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47054_29560.jpg",
+            "path": "scanned_anomalies\\tile_47054_29560.jpg",
+            "score": 0.9003,
+            "geo_bounds": {
+                "left": 78.475341796875,
+                "right": 78.4808349609375,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47055_29546.jpg",
+            "path": "scanned_anomalies\\tile_47055_29546.jpg",
+            "score": 0.7831,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.424154642445142,
+                "bottom": 17.418661478382642
+            }
+        },
+        {
+            "tile_name": "tile_47055_29547.jpg",
+            "path": "scanned_anomalies\\tile_47055_29547.jpg",
+            "score": 0.8822,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47055_29548.jpg",
+            "path": "scanned_anomalies\\tile_47055_29548.jpg",
+            "score": 0.8964,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47055_29549.jpg",
+            "path": "scanned_anomalies\\tile_47055_29549.jpg",
+            "score": 0.9094,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47055_29550.jpg",
+            "path": "scanned_anomalies\\tile_47055_29550.jpg",
+            "score": 0.9153,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47055_29551.jpg",
+            "path": "scanned_anomalies\\tile_47055_29551.jpg",
+            "score": 0.9101,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47055_29552.jpg",
+            "path": "scanned_anomalies\\tile_47055_29552.jpg",
+            "score": 0.9107,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47055_29553.jpg",
+            "path": "scanned_anomalies\\tile_47055_29553.jpg",
+            "score": 0.9067,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47055_29554.jpg",
+            "path": "scanned_anomalies\\tile_47055_29554.jpg",
+            "score": 0.8949,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47055_29555.jpg",
+            "path": "scanned_anomalies\\tile_47055_29555.jpg",
+            "score": 0.8909,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47055_29556.jpg",
+            "path": "scanned_anomalies\\tile_47055_29556.jpg",
+            "score": 0.9044,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47055_29557.jpg",
+            "path": "scanned_anomalies\\tile_47055_29557.jpg",
+            "score": 0.9029,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47055_29558.jpg",
+            "path": "scanned_anomalies\\tile_47055_29558.jpg",
+            "score": 0.904,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47055_29559.jpg",
+            "path": "scanned_anomalies\\tile_47055_29559.jpg",
+            "score": 0.902,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47055_29560.jpg",
+            "path": "scanned_anomalies\\tile_47055_29560.jpg",
+            "score": 0.8951,
+            "geo_bounds": {
+                "left": 78.4808349609375,
+                "right": 78.486328125,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47056_29546.jpg",
+            "path": "scanned_anomalies\\tile_47056_29546.jpg",
+            "score": 0.9076,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.424154642445142,
+                "bottom": 17.418661478382642
+            }
+        },
+        {
+            "tile_name": "tile_47056_29547.jpg",
+            "path": "scanned_anomalies\\tile_47056_29547.jpg",
+            "score": 0.9036,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47056_29548.jpg",
+            "path": "scanned_anomalies\\tile_47056_29548.jpg",
+            "score": 0.9072,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47056_29549.jpg",
+            "path": "scanned_anomalies\\tile_47056_29549.jpg",
+            "score": 0.904,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47056_29550.jpg",
+            "path": "scanned_anomalies\\tile_47056_29550.jpg",
+            "score": 0.9132,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47056_29551.jpg",
+            "path": "scanned_anomalies\\tile_47056_29551.jpg",
+            "score": 0.9113,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47056_29552.jpg",
+            "path": "scanned_anomalies\\tile_47056_29552.jpg",
+            "score": 0.912,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47056_29553.jpg",
+            "path": "scanned_anomalies\\tile_47056_29553.jpg",
+            "score": 0.902,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47056_29554.jpg",
+            "path": "scanned_anomalies\\tile_47056_29554.jpg",
+            "score": 0.8839,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47056_29555.jpg",
+            "path": "scanned_anomalies\\tile_47056_29555.jpg",
+            "score": 0.9043,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47056_29556.jpg",
+            "path": "scanned_anomalies\\tile_47056_29556.jpg",
+            "score": 0.9018,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47056_29557.jpg",
+            "path": "scanned_anomalies\\tile_47056_29557.jpg",
+            "score": 0.9022,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47056_29558.jpg",
+            "path": "scanned_anomalies\\tile_47056_29558.jpg",
+            "score": 0.9045,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47056_29559.jpg",
+            "path": "scanned_anomalies\\tile_47056_29559.jpg",
+            "score": 0.9003,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47056_29560.jpg",
+            "path": "scanned_anomalies\\tile_47056_29560.jpg",
+            "score": 0.8914,
+            "geo_bounds": {
+                "left": 78.486328125,
+                "right": 78.4918212890625,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47057_29546.jpg",
+            "path": "scanned_anomalies\\tile_47057_29546.jpg",
+            "score": 0.911,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.424154642445142,
+                "bottom": 17.418661478382642
+            }
+        },
+        {
+            "tile_name": "tile_47057_29547.jpg",
+            "path": "scanned_anomalies\\tile_47057_29547.jpg",
+            "score": 0.913,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47057_29548.jpg",
+            "path": "scanned_anomalies\\tile_47057_29548.jpg",
+            "score": 0.9109,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47057_29549.jpg",
+            "path": "scanned_anomalies\\tile_47057_29549.jpg",
+            "score": 0.9055,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47057_29550.jpg",
+            "path": "scanned_anomalies\\tile_47057_29550.jpg",
+            "score": 0.9069,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47057_29551.jpg",
+            "path": "scanned_anomalies\\tile_47057_29551.jpg",
+            "score": 0.9084,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47057_29552.jpg",
+            "path": "scanned_anomalies\\tile_47057_29552.jpg",
+            "score": 0.9115,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47057_29553.jpg",
+            "path": "scanned_anomalies\\tile_47057_29553.jpg",
+            "score": 0.904,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47057_29554.jpg",
+            "path": "scanned_anomalies\\tile_47057_29554.jpg",
+            "score": 0.8865,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47057_29555.jpg",
+            "path": "scanned_anomalies\\tile_47057_29555.jpg",
+            "score": 0.9008,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47057_29556.jpg",
+            "path": "scanned_anomalies\\tile_47057_29556.jpg",
+            "score": 0.9054,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47057_29557.jpg",
+            "path": "scanned_anomalies\\tile_47057_29557.jpg",
+            "score": 0.9073,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47057_29558.jpg",
+            "path": "scanned_anomalies\\tile_47057_29558.jpg",
+            "score": 0.9055,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47057_29559.jpg",
+            "path": "scanned_anomalies\\tile_47057_29559.jpg",
+            "score": 0.9032,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47057_29560.jpg",
+            "path": "scanned_anomalies\\tile_47057_29560.jpg",
+            "score": 0.8969,
+            "geo_bounds": {
+                "left": 78.4918212890625,
+                "right": 78.497314453125,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47058_29546.jpg",
+            "path": "scanned_anomalies\\tile_47058_29546.jpg",
+            "score": 0.9101,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.424154642445142,
+                "bottom": 17.418661478382642
+            }
+        },
+        {
+            "tile_name": "tile_47058_29547.jpg",
+            "path": "scanned_anomalies\\tile_47058_29547.jpg",
+            "score": 0.9143,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47058_29548.jpg",
+            "path": "scanned_anomalies\\tile_47058_29548.jpg",
+            "score": 0.9031,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47058_29549.jpg",
+            "path": "scanned_anomalies\\tile_47058_29549.jpg",
+            "score": 0.8858,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47058_29550.jpg",
+            "path": "scanned_anomalies\\tile_47058_29550.jpg",
+            "score": 0.8974,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47058_29551.jpg",
+            "path": "scanned_anomalies\\tile_47058_29551.jpg",
+            "score": 0.8967,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47058_29552.jpg",
+            "path": "scanned_anomalies\\tile_47058_29552.jpg",
+            "score": 0.9013,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47058_29553.jpg",
+            "path": "scanned_anomalies\\tile_47058_29553.jpg",
+            "score": 0.8899,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47058_29554.jpg",
+            "path": "scanned_anomalies\\tile_47058_29554.jpg",
+            "score": 0.9062,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47058_29555.jpg",
+            "path": "scanned_anomalies\\tile_47058_29555.jpg",
+            "score": 0.9019,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47058_29556.jpg",
+            "path": "scanned_anomalies\\tile_47058_29556.jpg",
+            "score": 0.8959,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47058_29557.jpg",
+            "path": "scanned_anomalies\\tile_47058_29557.jpg",
+            "score": 0.8961,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47058_29558.jpg",
+            "path": "scanned_anomalies\\tile_47058_29558.jpg",
+            "score": 0.8976,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47058_29559.jpg",
+            "path": "scanned_anomalies\\tile_47058_29559.jpg",
+            "score": 0.8942,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47058_29560.jpg",
+            "path": "scanned_anomalies\\tile_47058_29560.jpg",
+            "score": 0.8881,
+            "geo_bounds": {
+                "left": 78.497314453125,
+                "right": 78.5028076171875,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47059_29546.jpg",
+            "path": "scanned_anomalies\\tile_47059_29546.jpg",
+            "score": 0.9099,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.424154642445142,
+                "bottom": 17.418661478382642
+            }
+        },
+        {
+            "tile_name": "tile_47059_29547.jpg",
+            "path": "scanned_anomalies\\tile_47059_29547.jpg",
+            "score": 0.9091,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47059_29548.jpg",
+            "path": "scanned_anomalies\\tile_47059_29548.jpg",
+            "score": 0.9047,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47059_29549.jpg",
+            "path": "scanned_anomalies\\tile_47059_29549.jpg",
+            "score": 0.8883,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47059_29550.jpg",
+            "path": "scanned_anomalies\\tile_47059_29550.jpg",
+            "score": 0.8972,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47059_29551.jpg",
+            "path": "scanned_anomalies\\tile_47059_29551.jpg",
+            "score": 0.8942,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47059_29552.jpg",
+            "path": "scanned_anomalies\\tile_47059_29552.jpg",
+            "score": 0.8953,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47059_29553.jpg",
+            "path": "scanned_anomalies\\tile_47059_29553.jpg",
+            "score": 0.8938,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47059_29554.jpg",
+            "path": "scanned_anomalies\\tile_47059_29554.jpg",
+            "score": 0.8922,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47059_29555.jpg",
+            "path": "scanned_anomalies\\tile_47059_29555.jpg",
+            "score": 0.9021,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47059_29556.jpg",
+            "path": "scanned_anomalies\\tile_47059_29556.jpg",
+            "score": 0.9002,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47059_29557.jpg",
+            "path": "scanned_anomalies\\tile_47059_29557.jpg",
+            "score": 0.8942,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47059_29558.jpg",
+            "path": "scanned_anomalies\\tile_47059_29558.jpg",
+            "score": 0.8913,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47059_29559.jpg",
+            "path": "scanned_anomalies\\tile_47059_29559.jpg",
+            "score": 0.8905,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47059_29560.jpg",
+            "path": "scanned_anomalies\\tile_47059_29560.jpg",
+            "score": 0.8972,
+            "geo_bounds": {
+                "left": 78.5028076171875,
+                "right": 78.50830078125,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47060_29546.jpg",
+            "path": "scanned_anomalies\\tile_47060_29546.jpg",
+            "score": 0.9097,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.424154642445142,
+                "bottom": 17.418661478382642
+            }
+        },
+        {
+            "tile_name": "tile_47060_29547.jpg",
+            "path": "scanned_anomalies\\tile_47060_29547.jpg",
+            "score": 0.9053,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47060_29548.jpg",
+            "path": "scanned_anomalies\\tile_47060_29548.jpg",
+            "score": 0.9106,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47060_29549.jpg",
+            "path": "scanned_anomalies\\tile_47060_29549.jpg",
+            "score": 0.907,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47060_29550.jpg",
+            "path": "scanned_anomalies\\tile_47060_29550.jpg",
+            "score": 0.8941,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47060_29551.jpg",
+            "path": "scanned_anomalies\\tile_47060_29551.jpg",
+            "score": 0.8943,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47060_29552.jpg",
+            "path": "scanned_anomalies\\tile_47060_29552.jpg",
+            "score": 0.8952,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47060_29553.jpg",
+            "path": "scanned_anomalies\\tile_47060_29553.jpg",
+            "score": 0.8793,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47060_29554.jpg",
+            "path": "scanned_anomalies\\tile_47060_29554.jpg",
+            "score": 0.8915,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47060_29555.jpg",
+            "path": "scanned_anomalies\\tile_47060_29555.jpg",
+            "score": 0.9052,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47060_29556.jpg",
+            "path": "scanned_anomalies\\tile_47060_29556.jpg",
+            "score": 0.8781,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47060_29557.jpg",
+            "path": "scanned_anomalies\\tile_47060_29557.jpg",
+            "score": 0.8862,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47060_29558.jpg",
+            "path": "scanned_anomalies\\tile_47060_29558.jpg",
+            "score": 0.8979,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47060_29559.jpg",
+            "path": "scanned_anomalies\\tile_47060_29559.jpg",
+            "score": 0.8929,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47060_29560.jpg",
+            "path": "scanned_anomalies\\tile_47060_29560.jpg",
+            "score": 0.896,
+            "geo_bounds": {
+                "left": 78.50830078125,
+                "right": 78.5137939453125,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47061_29546.jpg",
+            "path": "scanned_anomalies\\tile_47061_29546.jpg",
+            "score": 0.9061,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.424154642445142,
+                "bottom": 17.418661478382642
+            }
+        },
+        {
+            "tile_name": "tile_47061_29547.jpg",
+            "path": "scanned_anomalies\\tile_47061_29547.jpg",
+            "score": 0.9061,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47061_29548.jpg",
+            "path": "scanned_anomalies\\tile_47061_29548.jpg",
+            "score": 0.8975,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47061_29549.jpg",
+            "path": "scanned_anomalies\\tile_47061_29549.jpg",
+            "score": 0.8907,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47061_29550.jpg",
+            "path": "scanned_anomalies\\tile_47061_29550.jpg",
+            "score": 0.8745,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47061_29551.jpg",
+            "path": "scanned_anomalies\\tile_47061_29551.jpg",
+            "score": 0.8904,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47061_29552.jpg",
+            "path": "scanned_anomalies\\tile_47061_29552.jpg",
+            "score": 0.8889,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47061_29553.jpg",
+            "path": "scanned_anomalies\\tile_47061_29553.jpg",
+            "score": 0.8847,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47061_29554.jpg",
+            "path": "scanned_anomalies\\tile_47061_29554.jpg",
+            "score": 0.8859,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47061_29555.jpg",
+            "path": "scanned_anomalies\\tile_47061_29555.jpg",
+            "score": 0.8962,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47061_29556.jpg",
+            "path": "scanned_anomalies\\tile_47061_29556.jpg",
+            "score": 0.8973,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47061_29557.jpg",
+            "path": "scanned_anomalies\\tile_47061_29557.jpg",
+            "score": 0.8963,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47061_29558.jpg",
+            "path": "scanned_anomalies\\tile_47061_29558.jpg",
+            "score": 0.8958,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47061_29559.jpg",
+            "path": "scanned_anomalies\\tile_47061_29559.jpg",
+            "score": 0.896,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47061_29560.jpg",
+            "path": "scanned_anomalies\\tile_47061_29560.jpg",
+            "score": 0.8979,
+            "geo_bounds": {
+                "left": 78.5137939453125,
+                "right": 78.519287109375,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47062_29546.jpg",
+            "path": "scanned_anomalies\\tile_47062_29546.jpg",
+            "score": 0.8802,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.424154642445142,
+                "bottom": 17.418661478382642
+            }
+        },
+        {
+            "tile_name": "tile_47062_29547.jpg",
+            "path": "scanned_anomalies\\tile_47062_29547.jpg",
+            "score": 0.8479,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47062_29548.jpg",
+            "path": "scanned_anomalies\\tile_47062_29548.jpg",
+            "score": 0.8347,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47062_29549.jpg",
+            "path": "scanned_anomalies\\tile_47062_29549.jpg",
+            "score": 0.8404,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47062_29550.jpg",
+            "path": "scanned_anomalies\\tile_47062_29550.jpg",
+            "score": 0.8679,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47062_29551.jpg",
+            "path": "scanned_anomalies\\tile_47062_29551.jpg",
+            "score": 0.8871,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47062_29552.jpg",
+            "path": "scanned_anomalies\\tile_47062_29552.jpg",
+            "score": 0.8724,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47062_29553.jpg",
+            "path": "scanned_anomalies\\tile_47062_29553.jpg",
+            "score": 0.8869,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47062_29554.jpg",
+            "path": "scanned_anomalies\\tile_47062_29554.jpg",
+            "score": 0.8673,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47062_29555.jpg",
+            "path": "scanned_anomalies\\tile_47062_29555.jpg",
+            "score": 0.8927,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47062_29556.jpg",
+            "path": "scanned_anomalies\\tile_47062_29556.jpg",
+            "score": 0.8975,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47062_29557.jpg",
+            "path": "scanned_anomalies\\tile_47062_29557.jpg",
+            "score": 0.8991,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47062_29558.jpg",
+            "path": "scanned_anomalies\\tile_47062_29558.jpg",
+            "score": 0.8929,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47062_29559.jpg",
+            "path": "scanned_anomalies\\tile_47062_29559.jpg",
+            "score": 0.8921,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47062_29560.jpg",
+            "path": "scanned_anomalies\\tile_47062_29560.jpg",
+            "score": 0.8943,
+            "geo_bounds": {
+                "left": 78.519287109375,
+                "right": 78.5247802734375,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        },
+        {
+            "tile_name": "tile_47063_29546.jpg",
+            "path": "scanned_anomalies\\tile_47063_29546.jpg",
+            "score": 0.8412,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.424154642445142,
+                "bottom": 17.418661478382642
+            }
+        },
+        {
+            "tile_name": "tile_47063_29547.jpg",
+            "path": "scanned_anomalies\\tile_47063_29547.jpg",
+            "score": 0.8352,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.418913382688483,
+                "bottom": 17.413420218625983
+            }
+        },
+        {
+            "tile_name": "tile_47063_29548.jpg",
+            "path": "scanned_anomalies\\tile_47063_29548.jpg",
+            "score": 0.8093,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.413671972526526,
+                "bottom": 17.408178808464026
+            }
+        },
+        {
+            "tile_name": "tile_47063_29549.jpg",
+            "path": "scanned_anomalies\\tile_47063_29549.jpg",
+            "score": 0.7479,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.408430411998822,
+                "bottom": 17.402937247936322
+            }
+        },
+        {
+            "tile_name": "tile_47063_29550.jpg",
+            "path": "scanned_anomalies\\tile_47063_29550.jpg",
+            "score": 0.7784,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.403188701144927,
+                "bottom": 17.397695537082427
+            }
+        },
+        {
+            "tile_name": "tile_47063_29551.jpg",
+            "path": "scanned_anomalies\\tile_47063_29551.jpg",
+            "score": 0.883,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.3979468400044,
+                "bottom": 17.3924536759419
+            }
+        },
+        {
+            "tile_name": "tile_47063_29552.jpg",
+            "path": "scanned_anomalies\\tile_47063_29552.jpg",
+            "score": 0.887,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.39270482861681,
+                "bottom": 17.38721166455431
+            }
+        },
+        {
+            "tile_name": "tile_47063_29553.jpg",
+            "path": "scanned_anomalies\\tile_47063_29553.jpg",
+            "score": 0.8838,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.38746266702173,
+                "bottom": 17.38196950295923
+            }
+        },
+        {
+            "tile_name": "tile_47063_29554.jpg",
+            "path": "scanned_anomalies\\tile_47063_29554.jpg",
+            "score": 0.871,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.38222035525873,
+                "bottom": 17.37672719119623
+            }
+        },
+        {
+            "tile_name": "tile_47063_29555.jpg",
+            "path": "scanned_anomalies\\tile_47063_29555.jpg",
+            "score": 0.8816,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.376977893367407,
+                "bottom": 17.371484729304907
+            }
+        },
+        {
+            "tile_name": "tile_47063_29556.jpg",
+            "path": "scanned_anomalies\\tile_47063_29556.jpg",
+            "score": 0.8985,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.371735281387345,
+                "bottom": 17.366242117324845
+            }
+        },
+        {
+            "tile_name": "tile_47063_29557.jpg",
+            "path": "scanned_anomalies\\tile_47063_29557.jpg",
+            "score": 0.8991,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.366492519358143,
+                "bottom": 17.360999355295643
+            }
+        },
+        {
+            "tile_name": "tile_47063_29558.jpg",
+            "path": "scanned_anomalies\\tile_47063_29558.jpg",
+            "score": 0.8633,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.36124960731941,
+                "bottom": 17.35575644325691
+            }
+        },
+        {
+            "tile_name": "tile_47063_29559.jpg",
+            "path": "scanned_anomalies\\tile_47063_29559.jpg",
+            "score": 0.8633,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.35600654531075,
+                "bottom": 17.35051338124825
+            }
+        },
+        {
+            "tile_name": "tile_47063_29560.jpg",
+            "path": "scanned_anomalies\\tile_47063_29560.jpg",
+            "score": 0.8958,
+            "geo_bounds": {
+                "left": 78.5247802734375,
+                "right": 78.5302734375,
+                "top": 17.35076333337178,
+                "bottom": 17.34527016930928
+            }
+        }
+    ]
+}
