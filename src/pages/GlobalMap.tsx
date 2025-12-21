@@ -3,9 +3,10 @@ import Navbar from '../components/Navbar';
 import { MapPin, Info, X, Layers, Wind, Search, ArrowLeft } from 'lucide-react';
 import { clsx } from 'clsx';
 import LiveMap, { type Hotspot } from '../components/LiveMap';
-import { fetchSensorFusion, searchAgent, fetchLiveHotspots } from '../services/agentApi';
+import { fetchSensorFusion, searchAgent, fetchLiveHotspots, triggerSatelliteScan, type SatelliteScanResponse } from '../services/agentApi';
 import { AiChat } from '../components/AiChat';
 import { NewsWidget } from '../components/NewsWidget';
+import { Scan, Loader2, AlertTriangle } from 'lucide-react';
 
 const INITIAL_HOTSPOTS: Hotspot[] = [
     {
@@ -43,6 +44,8 @@ export default function GlobalMap() {
     const [isSearching, setIsSearching] = useState(false);
     const [searchResult, setSearchResult] = useState<Hotspot | null>(null);
     const [hotspots, setHotspots] = useState<Hotspot[]>(INITIAL_HOTSPOTS);
+    const [isScanning, setIsScanning] = useState(false);
+    const [scanResult, setScanResult] = useState<SatelliteScanResponse | null>(null);
 
     // Fetch live hotspots on mount
     useEffect(() => {
@@ -161,6 +164,22 @@ export default function GlobalMap() {
 
         // Force view reset to India
         setViewCenter([22.5937, 78.9629]);
+    };
+
+    const handleSatelliteScan = async () => {
+        if (!selectedHotspot) return;
+        setIsScanning(true);
+        setScanResult(null);
+        try {
+            const result = await triggerSatelliteScan(selectedHotspot.lat, selectedHotspot.lng, selectedHotspot.name);
+            if (result) {
+                setScanResult(result);
+            }
+        } catch (error) {
+            console.error("Scan failed", error);
+        } finally {
+            setIsScanning(false);
+        }
     };
 
     return (
@@ -417,6 +436,45 @@ export default function GlobalMap() {
 
                             {/* News Widget Integration */}
                             <NewsWidget city={selectedHotspot.name} />
+
+                            {/* Satellite Scan Integration */}
+                            <div className="mt-4 pt-4 border-t border-white/10">
+                                <div className="flex items-center justify-between mb-2">
+                                    <h4 className="text-xs font-bold text-gray-500 uppercase flex items-center gap-2">
+                                        <Scan className="w-3 h-3" /> Satellite Vision Agent
+                                    </h4>
+                                    {scanResult && <span className="text-[10px] text-green-400">Scan Complete</span>}
+                                </div>
+
+                                {!scanResult ? (
+                                    <button
+                                        onClick={handleSatelliteScan}
+                                        disabled={isScanning}
+                                        className="w-full py-2 bg-brand-primary/20 hover:bg-brand-primary/40 border border-brand-primary/50 rounded-lg text-brand-primary text-xs font-bold uppercase transition-all flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+                                    >
+                                        {isScanning ? <Loader2 className="w-4 h-4 animate-spin" /> : <Scan className="w-4 h-4" />}
+                                        {isScanning ? 'Analyzing Satellite Imagery...' : 'Run Area Scan'}
+                                    </button>
+                                ) : (
+                                    <div className="bg-white/5 rounded-lg p-3 border border-white/10 animate-fade-in-up">
+                                        <div className="flex justify-between items-start mb-2">
+                                            <span className="text-xs text-gray-400">Tiles Scanned: <b className="text-white">{scanResult.tiles_scanned}</b></span>
+                                            <span className={clsx("text-xs font-bold px-1.5 py-0.5 rounded", scanResult.anomalies_found > 0 ? "bg-red-500/20 text-red-400" : "bg-green-500/20 text-green-400")}>
+                                                {scanResult.anomalies_found} Anomalies
+                                            </span>
+                                        </div>
+                                        <p className="text-xs text-gray-300 leading-relaxed italic border-l-2 border-brand-secondary pl-2">
+                                            "{scanResult.scan_insight}"
+                                        </p>
+                                        <button
+                                            onClick={() => setScanResult(null)}
+                                            className="mt-2 text-[10px] text-gray-500 hover:text-white underline w-full text-center"
+                                        >
+                                            Reset Scan
+                                        </button>
+                                    </div>
+                                )}
+                            </div>
 
                         </div>
                     )}

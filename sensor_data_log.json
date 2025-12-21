@@ -1,0 +1,1792 @@
+[
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T10:15:47",
+      "air_quality": {
+        "aqi_index": 382,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1071.44,
+          "no": 2.08,
+          "no2": 12.92,
+          "o3": 49.89,
+          "so2": 3.06,
+          "pm2_5": 226.43,
+          "pm10": 254.74,
+          "nh3": 1.81
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.06,
+        "wind_deg": 130,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 382 | PM2.5: 226.4 | PM10: 254.7). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T10:17:37.732213"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T10:15:47",
+      "air_quality": {
+        "aqi_index": 382,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1071.44,
+          "no": 2.08,
+          "no2": 12.92,
+          "o3": 49.89,
+          "so2": 3.06,
+          "pm2_5": 226.43,
+          "pm10": 254.74,
+          "nh3": 1.81
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.06,
+        "wind_deg": 130,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 382 | PM2.5: 226.4 | PM10: 254.7). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T10:17:38.720445"
+  },
+  {
+    "type": "search_result",
+    "query": "Bangalore",
+    "location": "Bengaluru",
+    "data": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "timestamp_utc": "2025-12-21T10:17:37",
+      "air_quality": {
+        "aqi_index": 284,
+        "aqi_category": "Poor",
+        "components": {
+          "co": 451.42,
+          "no": 1.17,
+          "no2": 6.84,
+          "o3": 105.34,
+          "so2": 9.78,
+          "pm2_5": 115.23,
+          "pm10": 127.46,
+          "nh3": 1.89
+        }
+      },
+      "weather": {
+        "temperature_c": 19.88,
+        "humidity": 67,
+        "pressure": 1016,
+        "wind_speed": 10.28,
+        "wind_deg": 90,
+        "clouds": 11,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Poor",
+      "agent_insight": "Search Result for Bengaluru: Air quality is Poor (AQI: 284 | PM2.5: 115.2 | PM10: 127.5). Hazardous levels.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T10:17:40.898124"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T10:15:47",
+      "air_quality": {
+        "aqi_index": 382,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1071.44,
+          "no": 2.08,
+          "no2": 12.92,
+          "o3": 49.89,
+          "so2": 3.06,
+          "pm2_5": 226.43,
+          "pm10": 254.74,
+          "nh3": 1.81
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.06,
+        "wind_deg": 130,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 382 | PM2.5: 226.4 | PM10: 254.7). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T10:18:14.853832"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T10:18:15",
+      "air_quality": {
+        "aqi_index": 382,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1071.44,
+          "no": 2.08,
+          "no2": 12.92,
+          "o3": 49.89,
+          "so2": 3.06,
+          "pm2_5": 226.43,
+          "pm10": 254.74,
+          "nh3": 1.81
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.06,
+        "wind_deg": 130,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 382 | PM2.5: 226.4 | PM10: 254.7). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T10:18:16.175431"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T10:18:15",
+      "air_quality": {
+        "aqi_index": 382,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1071.44,
+          "no": 2.08,
+          "no2": 12.92,
+          "o3": 49.89,
+          "so2": 3.06,
+          "pm2_5": 226.43,
+          "pm10": 254.74,
+          "nh3": 1.81
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.06,
+        "wind_deg": 130,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 382 | PM2.5: 226.4 | PM10: 254.7). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T10:18:30.787587"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T10:18:15",
+      "air_quality": {
+        "aqi_index": 382,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1071.44,
+          "no": 2.08,
+          "no2": 12.92,
+          "o3": 49.89,
+          "so2": 3.06,
+          "pm2_5": 226.43,
+          "pm10": 254.74,
+          "nh3": 1.81
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.06,
+        "wind_deg": 130,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 382 | PM2.5: 226.4 | PM10: 254.7). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T10:18:31.842249"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T10:33:37",
+      "air_quality": {
+        "aqi_index": 382,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1071.44,
+          "no": 2.08,
+          "no2": 12.92,
+          "o3": 49.89,
+          "so2": 3.06,
+          "pm2_5": 226.43,
+          "pm10": 254.74,
+          "nh3": 1.81
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.06,
+        "wind_deg": 130,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 382 | PM2.5: 226.4 | PM10: 254.7). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T10:34:38.329925"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T10:33:37",
+      "air_quality": {
+        "aqi_index": 382,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1071.44,
+          "no": 2.08,
+          "no2": 12.92,
+          "o3": 49.89,
+          "so2": 3.06,
+          "pm2_5": 226.43,
+          "pm10": 254.74,
+          "nh3": 1.81
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.06,
+        "wind_deg": 130,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 382 | PM2.5: 226.4 | PM10: 254.7). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T10:34:39.379747"
+  },
+  {
+    "type": "search_result",
+    "query": "Bangalore",
+    "location": "Bengaluru",
+    "data": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "timestamp_utc": "2025-12-21T10:34:16",
+      "air_quality": {
+        "aqi_index": 284,
+        "aqi_category": "Poor",
+        "components": {
+          "co": 451.42,
+          "no": 1.17,
+          "no2": 6.84,
+          "o3": 105.34,
+          "so2": 9.78,
+          "pm2_5": 115.23,
+          "pm10": 127.46,
+          "nh3": 1.89
+        }
+      },
+      "weather": {
+        "temperature_c": 21.14,
+        "humidity": 66,
+        "pressure": 1016,
+        "wind_speed": 10.73,
+        "wind_deg": 92,
+        "clouds": 11,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Poor",
+      "agent_insight": "Search Result for Bengaluru: Air quality is Poor (AQI: 284 | PM2.5: 115.2 | PM10: 127.5). Hazardous levels.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T10:34:45.226977"
+  },
+  {
+    "type": "search_result",
+    "query": "Kolkata",
+    "location": "Kolkata",
+    "data": {
+      "lat": 22.5414185,
+      "lon": 88.35769124388872,
+      "timestamp_utc": "2025-12-21T10:34:16",
+      "air_quality": {
+        "aqi_index": 410,
+        "aqi_category": "Severe",
+        "components": {
+          "co": 1326.92,
+          "no": 1.45,
+          "no2": 16.49,
+          "o3": 115.22,
+          "so2": 27.7,
+          "pm2_5": 321.22,
+          "pm10": 343.18,
+          "nh3": 6.39
+        }
+      },
+      "weather": {
+        "temperature_c": 15.96,
+        "humidity": 88,
+        "pressure": 1017,
+        "wind_speed": 3.09,
+        "wind_deg": 350,
+        "clouds": 20,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Severe",
+      "agent_insight": "Search Result for Kolkata: Air quality is Severe (AQI: 410 | PM2.5: 321.2 | PM10: 343.2). Hazardous levels. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T10:34:56.832335"
+  },
+  {
+    "type": "search_result",
+    "query": "New Delhi",
+    "location": "New Delhi",
+    "data": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T10:33:37",
+      "air_quality": {
+        "aqi_index": 382,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1071.44,
+          "no": 2.08,
+          "no2": 12.92,
+          "o3": 49.89,
+          "so2": 3.06,
+          "pm2_5": 226.43,
+          "pm10": 254.74,
+          "nh3": 1.81
+        }
+      },
+      "weather": {
+        "temperature_c": 12.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.06,
+        "wind_deg": 130,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "Search Result for New Delhi: Air quality is Very Poor (AQI: 382 | PM2.5: 226.4 | PM10: 254.7). Hazardous levels. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T10:35:08.365432"
+  },
+  {
+    "type": "search_result",
+    "query": "Kolkata",
+    "location": "Kolkata",
+    "data": {
+      "lat": 22.5414185,
+      "lon": 88.35769124388872,
+      "timestamp_utc": "2025-12-21T10:34:16",
+      "air_quality": {
+        "aqi_index": 410,
+        "aqi_category": "Severe",
+        "components": {
+          "co": 1326.92,
+          "no": 1.45,
+          "no2": 16.49,
+          "o3": 115.22,
+          "so2": 27.7,
+          "pm2_5": 321.22,
+          "pm10": 343.18,
+          "nh3": 6.39
+        }
+      },
+      "weather": {
+        "temperature_c": 15.96,
+        "humidity": 88,
+        "pressure": 1017,
+        "wind_speed": 3.09,
+        "wind_deg": 350,
+        "clouds": 20,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Severe",
+      "agent_insight": "Search Result for Kolkata: Air quality is Severe (AQI: 410 | PM2.5: 321.2 | PM10: 343.2). Hazardous levels. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T10:35:26.161635"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T10:46:34",
+      "air_quality": {
+        "aqi_index": 382,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1071.44,
+          "no": 2.08,
+          "no2": 12.92,
+          "o3": 49.89,
+          "so2": 3.06,
+          "pm2_5": 226.43,
+          "pm10": 254.74,
+          "nh3": 1.81
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 382 | PM2.5: 226.4 | PM10: 254.7). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T10:49:36.458931"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T10:46:34",
+      "air_quality": {
+        "aqi_index": 382,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1071.44,
+          "no": 2.08,
+          "no2": 12.92,
+          "o3": 49.89,
+          "so2": 3.06,
+          "pm2_5": 226.43,
+          "pm10": 254.74,
+          "nh3": 1.81
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 382 | PM2.5: 226.4 | PM10: 254.7). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T10:49:37.665673"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:28:17",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T11:29:32.518678"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:28:17",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T11:29:43.368692"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:28:17",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T11:29:44.670758"
+  },
+  {
+    "type": "search_result",
+    "query": "Hyderabad",
+    "location": "Hyderabad",
+    "data": {
+      "lat": 17.360589,
+      "lon": 78.4740613,
+      "timestamp_utc": "2025-12-21T11:28:56",
+      "air_quality": {
+        "aqi_index": 259,
+        "aqi_category": "Poor",
+        "components": {
+          "co": 418.38,
+          "no": 0.53,
+          "no2": 2.96,
+          "o3": 105.38,
+          "so2": 5.76,
+          "pm2_5": 107.79,
+          "pm10": 117.19,
+          "nh3": 0.21
+        }
+      },
+      "weather": {
+        "temperature_c": 23.19,
+        "humidity": 43,
+        "pressure": 1016,
+        "wind_speed": 3.6,
+        "wind_deg": 100,
+        "clouds": 84,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Poor",
+      "agent_insight": "Search Result for Hyderabad: Air quality is Poor (AQI: 259 | PM2.5: 107.8 | PM10: 117.2). Hazardous levels. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T11:29:48.115994"
+  },
+  {
+    "type": "search_result",
+    "query": "Bangalore",
+    "location": "Bengaluru",
+    "data": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "timestamp_utc": "2025-12-21T11:20:33",
+      "air_quality": {
+        "aqi_index": 298,
+        "aqi_category": "Poor",
+        "components": {
+          "co": 432.11,
+          "no": 0.64,
+          "no2": 4.43,
+          "o3": 129.25,
+          "so2": 9.65,
+          "pm2_5": 119.64,
+          "pm10": 131.27,
+          "nh3": 1.46
+        }
+      },
+      "weather": {
+        "temperature_c": 22.94,
+        "humidity": 54,
+        "pressure": 1014,
+        "wind_speed": 11.18,
+        "wind_deg": 92,
+        "clouds": 6,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Poor",
+      "agent_insight": "Search Result for Bengaluru: Air quality is Poor (AQI: 298 | PM2.5: 119.6 | PM10: 131.3). Hazardous levels.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T11:29:54.765447"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:28:17",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T11:31:56.688015"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:28:17",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T11:31:57.820023"
+  },
+  {
+    "type": "search_result",
+    "query": "Hyderabad",
+    "location": "Hyderabad",
+    "data": {
+      "lat": 17.360589,
+      "lon": 78.4740613,
+      "timestamp_utc": "2025-12-21T11:31:52",
+      "air_quality": {
+        "aqi_index": 259,
+        "aqi_category": "Poor",
+        "components": {
+          "co": 418.38,
+          "no": 0.53,
+          "no2": 2.96,
+          "o3": 105.38,
+          "so2": 5.76,
+          "pm2_5": 107.79,
+          "pm10": 117.19,
+          "nh3": 0.21
+        }
+      },
+      "weather": {
+        "temperature_c": 23.19,
+        "humidity": 43,
+        "pressure": 1016,
+        "wind_speed": 3.6,
+        "wind_deg": 100,
+        "clouds": 84,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Poor",
+      "agent_insight": "Search Result for Hyderabad: Air quality is Poor (AQI: 259 | PM2.5: 107.8 | PM10: 117.2). Hazardous levels. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T11:32:00.655454"
+  },
+  {
+    "type": "search_result",
+    "query": "New Delhi",
+    "location": "New Delhi",
+    "data": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:28:17",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "Search Result for New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T11:32:32.799797"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:35:45",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.06,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T11:37:34.887952"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:35:45",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.06,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T11:37:36.295893"
+  },
+  {
+    "type": "search_result",
+    "query": "New Delhi",
+    "location": "New Delhi",
+    "data": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:35:45",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.06,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "Search Result for New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T11:37:40.049799"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:46:02",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T11:46:05.782012"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:46:02",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T11:46:07.016397"
+  },
+  {
+    "type": "search_result",
+    "query": "Mumbai",
+    "location": "Mumbai",
+    "data": {
+      "lat": 19.0785451,
+      "lon": 72.878176,
+      "timestamp_utc": "2025-12-21T11:46:06",
+      "air_quality": {
+        "aqi_index": 97,
+        "aqi_category": "Fair",
+        "components": {
+          "co": 264.18,
+          "no": 0.19,
+          "no2": 1.81,
+          "o3": 110.12,
+          "so2": 3.48,
+          "pm2_5": 58.7,
+          "pm10": 66.61,
+          "nh3": 0.0
+        }
+      },
+      "weather": {
+        "temperature_c": 30.03,
+        "humidity": 25,
+        "pressure": 1014,
+        "wind_speed": 4.12,
+        "wind_deg": 120,
+        "clouds": 20,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Fair",
+      "agent_insight": "Search Result for Mumbai: Air quality is Fair (AQI: 97 | PM2.5: 58.7 | PM10: 66.6). Good air. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T11:46:17.887147"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:46:02",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T11:50:26.820638"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:46:02",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T11:50:29.525900"
+  },
+  {
+    "type": "search_result",
+    "query": "Bangalore",
+    "location": "Bengaluru",
+    "data": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "timestamp_utc": "2025-12-21T11:50:26",
+      "air_quality": {
+        "aqi_index": 298,
+        "aqi_category": "Poor",
+        "components": {
+          "co": 432.11,
+          "no": 0.64,
+          "no2": 4.43,
+          "o3": 129.25,
+          "so2": 9.65,
+          "pm2_5": 119.64,
+          "pm10": 131.27,
+          "nh3": 1.46
+        }
+      },
+      "weather": {
+        "temperature_c": 23.59,
+        "humidity": 52,
+        "pressure": 1014,
+        "wind_speed": 11.18,
+        "wind_deg": 92,
+        "clouds": 6,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Poor",
+      "agent_insight": "Search Result for Bengaluru: Air quality is Poor (AQI: 298 | PM2.5: 119.6 | PM10: 131.3). Hazardous levels.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T11:51:15.857325"
+  },
+  {
+    "type": "search_result",
+    "query": "Hyderabad",
+    "location": "Hyderabad",
+    "data": {
+      "lat": 17.360589,
+      "lon": 78.4740613,
+      "timestamp_utc": "2025-12-21T11:50:26",
+      "air_quality": {
+        "aqi_index": 259,
+        "aqi_category": "Poor",
+        "components": {
+          "co": 418.38,
+          "no": 0.53,
+          "no2": 2.96,
+          "o3": 105.38,
+          "so2": 5.76,
+          "pm2_5": 107.79,
+          "pm10": 117.19,
+          "nh3": 0.21
+        }
+      },
+      "weather": {
+        "temperature_c": 24.19,
+        "humidity": 41,
+        "pressure": 1016,
+        "wind_speed": 3.6,
+        "wind_deg": 100,
+        "clouds": 84,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Poor",
+      "agent_insight": "Search Result for Hyderabad: Air quality is Poor (AQI: 259 | PM2.5: 107.8 | PM10: 117.2). Hazardous levels. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T11:57:58.399133"
+  },
+  {
+    "type": "search_result",
+    "query": "Bangalore",
+    "location": "Bengaluru",
+    "data": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "timestamp_utc": "2025-12-21T11:50:26",
+      "air_quality": {
+        "aqi_index": 298,
+        "aqi_category": "Poor",
+        "components": {
+          "co": 432.11,
+          "no": 0.64,
+          "no2": 4.43,
+          "o3": 129.25,
+          "so2": 9.65,
+          "pm2_5": 119.64,
+          "pm10": 131.27,
+          "nh3": 1.46
+        }
+      },
+      "weather": {
+        "temperature_c": 23.59,
+        "humidity": 52,
+        "pressure": 1014,
+        "wind_speed": 11.18,
+        "wind_deg": 92,
+        "clouds": 6,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Poor",
+      "agent_insight": "Search Result for Bengaluru: Air quality is Poor (AQI: 298 | PM2.5: 119.6 | PM10: 131.3). Hazardous levels.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T11:58:21.879547"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:52:22",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T11:58:22.613652"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T11:52:22",
+      "air_quality": {
+        "aqi_index": 378,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 1036.81,
+          "no": 1.66,
+          "no2": 11.64,
+          "o3": 65.03,
+          "so2": 3.02,
+          "pm2_5": 221.38,
+          "pm10": 251.33,
+          "nh3": 2.51
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1018,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 378 | PM2.5: 221.4 | PM10: 251.3). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T11:58:25.892549"
+  },
+  {
+    "type": "search_result",
+    "query": "Bangalore",
+    "location": "Bengaluru",
+    "data": {
+      "lat": 12.9767936,
+      "lon": 77.590082,
+      "timestamp_utc": "2025-12-21T11:50:26",
+      "air_quality": {
+        "aqi_index": 298,
+        "aqi_category": "Poor",
+        "components": {
+          "co": 432.11,
+          "no": 0.64,
+          "no2": 4.43,
+          "o3": 129.25,
+          "so2": 9.65,
+          "pm2_5": 119.64,
+          "pm10": 131.27,
+          "nh3": 1.46
+        }
+      },
+      "weather": {
+        "temperature_c": 23.59,
+        "humidity": 52,
+        "pressure": 1014,
+        "wind_speed": 11.18,
+        "wind_deg": 92,
+        "clouds": 6,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Poor",
+      "agent_insight": "Search Result for Bengaluru: Air quality is Poor (AQI: 298 | PM2.5: 119.6 | PM10: 131.3). Hazardous levels.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T11:58:42.588645"
+  },
+  {
+    "type": "search_result",
+    "query": "Chennai",
+    "location": "Chennai",
+    "data": {
+      "lat": 13.0836939,
+      "lon": 80.270186,
+      "timestamp_utc": "2025-12-21T11:59:34",
+      "air_quality": {
+        "aqi_index": 286,
+        "aqi_category": "Poor",
+        "components": {
+          "co": 446.01,
+          "no": 0.55,
+          "no2": 3.85,
+          "o3": 126.98,
+          "so2": 8.18,
+          "pm2_5": 115.78,
+          "pm10": 125.55,
+          "nh3": 0.0
+        }
+      },
+      "weather": {
+        "temperature_c": 28.56,
+        "humidity": 61,
+        "pressure": 1014,
+        "wind_speed": 4.12,
+        "wind_deg": 80,
+        "clouds": 40,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Poor",
+      "agent_insight": "Search Result for Chennai: Air quality is Poor (AQI: 286 | PM2.5: 115.8 | PM10: 125.5). Hazardous levels. Stagnant air.",
+      "data": {
+        "forecast_3day": []
+      }
+    },
+    "timestamp_logged": "2025-12-21T12:04:53.634274"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T12:03:26",
+      "air_quality": {
+        "aqi_index": 358,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 804.8,
+          "no": 0.79,
+          "no2": 5.51,
+          "o3": 120.48,
+          "so2": 4.01,
+          "pm2_5": 196.02,
+          "pm10": 232.83,
+          "nh3": 1.6
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1017,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 358 | PM2.5: 196.0 | PM10: 232.8). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T12:05:11.335177"
+  },
+  {
+    "type": "hotspots_update",
+    "count": 7,
+    "cities": [
+      "New Delhi",
+      "Mumbai",
+      "Hyderabad",
+      "Bengaluru",
+      "Chennai",
+      "Kolkata",
+      "Ayodhya"
+    ],
+    "data_sample": {
+      "lat": 28.6138954,
+      "lon": 77.2090057,
+      "timestamp_utc": "2025-12-21T12:03:26",
+      "air_quality": {
+        "aqi_index": 358,
+        "aqi_category": "Very Poor",
+        "components": {
+          "co": 804.8,
+          "no": 0.79,
+          "no2": 5.51,
+          "o3": 120.48,
+          "so2": 4.01,
+          "pm2_5": 196.02,
+          "pm10": 232.83,
+          "nh3": 1.6
+        }
+      },
+      "weather": {
+        "temperature_c": 13.07,
+        "humidity": 94,
+        "pressure": 1017,
+        "wind_speed": 2.57,
+        "wind_deg": 120,
+        "clouds": 100,
+        "description": ""
+      },
+      "dispersion_score": 0.0,
+      "health_risk_level": "Very Poor",
+      "agent_insight": "New Delhi: Air quality is Very Poor (AQI: 358 | PM2.5: 196.0 | PM10: 232.8). Hazardous levels. Stagnant air.",
+      "data": null
+    },
+    "timestamp_logged": "2025-12-21T12:05:16.392037"
+  }
+]

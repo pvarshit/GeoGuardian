@@ -130,3 +130,34 @@ export async function fetchLiveHotspots(): Promise<any[]> {
         return [];
     }
 }
+
+const SATELLITE_API_URL = "http://localhost:8200";
+
+export interface SatelliteScanResponse {
+    status: string;
+    region: string;
+    tiles_scanned: number;
+    anomalies_found: number;
+    events: {
+        location: number[];
+        type: string;
+        confidence: number;
+        source_tile: string;
+    }[];
+    scan_insight: string;
+}
+
+export async function triggerSatelliteScan(lat: number, lon: number, name: string): Promise<SatelliteScanResponse | null> {
+    try {
+        const response = await fetch(`${SATELLITE_API_URL}/scan`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ name, lat, lon, zoom: 16, grid_width: 15 }),
+        });
+        if (!response.ok) throw new Error('Scan failed');
+        return await response.json();
+    } catch (error) {
+        console.error("Satellite Scan Error:", error);
+        return null;
+    }
+}
