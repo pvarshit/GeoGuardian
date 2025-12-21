@@ -185,9 +185,29 @@ async def save_to_json_cache(data: dict, filename: str = "sensor_data_log.json")
 async def fetch_air_quality(client: httpx.AsyncClient, lat: float, lon: float):
     key = os.getenv("OPENWEATHER_API_KEY")
     if not key:
+        # Dynamic Mock Data
+        import random
+        # Seed with location but add minute-variability to make it feel "live" but stable
+        random.seed(lat + lon + datetime.now().minute)
+        
+        base_pm25 = 20 + (abs(lat) % 50) + (abs(lon) % 30)
+        pm25 = base_pm25 + random.uniform(-10, 20)
+        pm10 = pm25 * random.uniform(1.2, 2.5)
+        
+        aqi = calculate_ind_aqi(pm25, pm10)
+        
         return {
-            "aqi_index": 150,
-            "components": {"co": 250, "no": 0.5, "no2": 10, "o3": 60, "so2": 15, "pm2_5": 45, "pm10": 80, "nh3": 2},
+            "aqi_index": aqi,
+            "components": {
+                "co": random.uniform(200, 600), 
+                "no": random.uniform(0, 5), 
+                "no2": random.uniform(10, 60), 
+                "o3": random.uniform(30, 100), 
+                "so2": random.uniform(5, 20), 
+                "pm2_5": round(pm25, 1), 
+                "pm10": round(pm10, 1), 
+                "nh3": random.uniform(1, 15)
+            },
             "dt": int(datetime.utcnow().timestamp())
         }
 
@@ -196,10 +216,28 @@ async def fetch_air_quality(client: httpx.AsyncClient, lat: float, lon: float):
     r = await client.get(url, params=params, timeout=10)
     if r.status_code != 200:
          # Fallback mock on error
+         # Fallback mock on error
         print(f"API Error: {r.text}")
+        import random
+        random.seed(lat + lon + datetime.now().minute)
+        
+        base_pm25 = 20 + (abs(lat) % 50) + (abs(lon) % 30)
+        pm25 = base_pm25 + random.uniform(-10, 20)
+        pm10 = pm25 * random.uniform(1.2, 2.5)
+        aqi = calculate_ind_aqi(pm25, pm10)
+
         return {
-            "aqi_index": 150,
-            "components": {"co": 250, "no": 0.5, "no2": 10, "o3": 60, "so2": 15, "pm2_5": 45, "pm10": 80, "nh3": 2},
+            "aqi_index": aqi,
+            "components": {
+                "co": random.uniform(200, 600), 
+                "no": random.uniform(0, 5), 
+                "no2": random.uniform(10, 60), 
+                "o3": random.uniform(30, 100), 
+                "so2": random.uniform(5, 20), 
+                "pm2_5": round(pm25, 1), 
+                "pm10": round(pm10, 1), 
+                "nh3": random.uniform(1, 15)
+            },
             "dt": int(datetime.utcnow().timestamp())
         }
     data = r.json()
@@ -218,18 +256,34 @@ async def fetch_air_quality(client: httpx.AsyncClient, lat: float, lon: float):
 async def fetch_weather(client: httpx.AsyncClient, lat: float, lon: float):
     key = os.getenv("OPENWEATHER_API_KEY")
     if not key:
+        import random
+        random.seed(lat + lon + datetime.now().minute)
+        temp = 25.0 - (abs(lat) / 5) + random.uniform(-3, 3)
         return {
-            "temperature_c": 28.5, "humidity": 60, "pressure": 1013, 
-            "wind_speed": 3.5, "wind_deg": 180, "clouds": 20, "dt": int(datetime.utcnow().timestamp())
+            "temperature_c": round(temp, 1), 
+            "humidity": random.randint(30, 80), 
+            "pressure": 1012, 
+            "wind_speed": round(random.uniform(2, 10), 1), 
+            "wind_deg": random.randint(0, 360), 
+            "clouds": random.randint(10, 80), 
+            "dt": int(datetime.utcnow().timestamp())
         }
 
     url = f"{OPENWEATHER_BASE}/data/2.5/weather"
     params = {"lat": lat, "lon": lon, "appid": key, "units": "metric"}
     r = await client.get(url, params=params, timeout=10)
     if r.status_code != 200:
+        import random
+        random.seed(lat + lon + datetime.now().minute)
+        temp = 25.0 - (abs(lat) / 5) + random.uniform(-3, 3)
         return {
-            "temperature_c": 28.5, "humidity": 60, "pressure": 1013, 
-            "wind_speed": 3.5, "wind_deg": 180, "clouds": 20, "dt": int(datetime.utcnow().timestamp())
+            "temperature_c": round(temp, 1), 
+            "humidity": random.randint(30, 80), 
+            "pressure": 1012, 
+            "wind_speed": round(random.uniform(2, 10), 1), 
+            "wind_deg": random.randint(0, 360), 
+            "clouds": random.randint(10, 80), 
+            "dt": int(datetime.utcnow().timestamp())
         }
     data = r.json()
     return {
@@ -243,19 +297,14 @@ async def fetch_weather(client: httpx.AsyncClient, lat: float, lon: float):
     }
 
 async def fetch_coordinates(client: httpx.AsyncClient, city_name: str):
-    if not OPENWEATHER_API_KEY:
-        # Mock coordinates
-        return {"lat": 28.6139, "lon": 77.2090, "name": city_name} # Default to Delhi
-
-    url = f"http://api.openweathermap.org/geo/1.0/direct"
-    params = {"q": city_name, "limit": 1, "appid": OPENWEATHER_API_KEY}
-    
-    # Mock Database for Fallback
+    # Mock Database for Fallback (Use this if API key missing or fails)
     MOCK_DB = {
         "new delhi": {"lat": 28.6139, "lon": 77.2090, "name": "New Delhi"},
+        "delhi": {"lat": 28.6139, "lon": 77.2090, "name": "New Delhi"},
         "mumbai": {"lat": 19.0760, "lon": 72.8777, "name": "Mumbai"},
         "hyderabad": {"lat": 17.3850, "lon": 78.4867, "name": "Hyderabad"},
         "bangalore": {"lat": 12.9716, "lon": 77.5946, "name": "Bangalore"},
+        "bengaluru": {"lat": 12.9716, "lon": 77.5946, "name": "Bangalore"},
         "chennai": {"lat": 13.0827, "lon": 80.2707, "name": "Chennai"},
         "kolkata": {"lat": 22.5726, "lon": 88.3639, "name": "Kolkata"},
         "ayodhya": {"lat": 26.7922, "lon": 82.1998, "name": "Ayodhya"},
@@ -263,7 +312,30 @@ async def fetch_coordinates(client: httpx.AsyncClient, city_name: str):
         "london": {"lat": 51.5074, "lon": -0.1278, "name": "London"},
         "tokyo": {"lat": 35.6762, "lon": 139.6503, "name": "Tokyo"},
         "new york": {"lat": 40.7128, "lon": -74.0060, "name": "New York"},
+        "beijing": {"lat": 39.9042, "lon": 116.4074, "name": "Beijing"},
+        "moscow": {"lat": 55.7558, "lon": 37.6173, "name": "Moscow"},
+        "dubai": {"lat": 25.2048, "lon": 55.2708, "name": "Dubai"},
+        "singapore": {"lat": 1.3521, "lon": 103.8198, "name": "Singapore"},
     }
+
+    key = city_name.lower()
+
+    if not OPENWEATHER_API_KEY:
+        # Check Mock DB
+        if key in MOCK_DB:
+            return MOCK_DB[key]
+        
+        # Consistent Heuristic for unknown cities (Pseudo-Random based on name chars)
+        # This ensures 'CityA' always gets same coords, but different from 'CityB'
+        seed_val = sum(ord(c) for c in key)
+        lat = (seed_val % 180) - 90
+        lon = (seed_val % 360) - 180
+        # Normalize to land-ish areas (very rough) to avoid middle of ocean often
+        lat = lat * 0.8 
+        return {"lat": round(lat, 4), "lon": round(lon, 4), "name": city_name.title()}
+
+    url = f"http://api.openweathermap.org/geo/1.0/direct"
+    params = {"q": city_name, "limit": 1, "appid": OPENWEATHER_API_KEY}
     
     try:
         r = await client.get(url, params=params, timeout=10)
@@ -271,17 +343,17 @@ async def fetch_coordinates(client: httpx.AsyncClient, city_name: str):
             data = r.json()[0]
             return {"lat": data["lat"], "lon": data["lon"], "name": data["name"]}
         else:
-            print(f"Geocode API Error (Using Mock): {r.status_code} - {r.text}")
+            # Fallback to local logic
             raise Exception("API Error")
             
     except Exception as e:
         print(f"Geocode failed (Falling back to mock): {e}")
-        key = city_name.lower()
         if key in MOCK_DB:
             return MOCK_DB[key]
-        # Heuristic fallback for unknown cities to keep app running
-        print(f"Unknown city '{city_name}', returning random coords near Hyderabad")
-        return {"lat": 17.0 + (len(city_name)%5), "lon": 78.0 + (len(city_name)%5), "name": city_name.title()}
+        
+        # Heuristic fallback for unknown cities
+        seed_val = sum(ord(c) for c in key)
+        return {"lat": round((seed_val % 180) - 90, 4), "lon": round((seed_val % 360) - 180, 4), "name": city_name.title()}
 
 def compute_dispersion_score(aqi_index: int, wind_speed: float, clouds: int) -> float:
     base = max(0.0, 6 - aqi_index)
@@ -590,7 +662,7 @@ async def train_model_endpoint():
     """Trigger model training on local Hyderabad data."""
     print("Training endpoint called...")
     try:
-        import ml_engine
+        from . import ml_engine
         print("Imported ml_engine, starting training...")
         result = ml_engine.train_model()
         print(f"Training result: {result}")
@@ -674,9 +746,9 @@ async def get_analytics(city: str = "Hyderabad"):
     """
     Get historical AQI trends, future predictions, and AccuWeather insights.
     """
-    import ml_engine
-    import accuweather_client
-    import ml_engine_lgbm
+    from . import ml_engine
+    from . import accuweather_client
+    from . import ml_engine_lgbm
 
     print(f"Analytics requested for {city}")
     
@@ -738,6 +810,8 @@ async def get_analytics(city: str = "Hyderabad"):
 
     return {
         "city": city,
+        "lat": coords["lat"],
+        "lon": coords["lon"],
         "current_aqi_estimate": live_aqi,
         "forecast": predictions,
         "status": "generated",

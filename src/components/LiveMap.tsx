@@ -3,6 +3,9 @@ import { MapContainer, TileLayer, Marker, useMap, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { clsx } from 'clsx';
+import { useState } from 'react';
+import { Scan, AlertOctagon, Loader2 } from 'lucide-react';
+import { triggerSatelliteScan, type SatelliteScanResponse } from '../services/agentApi';
 
 
 // Fix for default marker icons
@@ -58,6 +61,45 @@ function MapUpdater({ center }: { center: [number, number] | null }) {
     return null;
 }
 
+// Satellite Control Component
+function SatelliteScanner({ onScanComplete }: { onScanComplete: (data: SatelliteScanResponse) => void }) {
+    const map = useMap();
+    const [scanning, setScanning] = useState(false);
+
+    const handleScan = async () => {
+        setScanning(true);
+        const center = map.getCenter();
+        try {
+            const result = await triggerSatelliteScan(center.lat, center.lng, `LiveMap Scan ${center.lat.toFixed(2)},${center.lng.toFixed(2)}`);
+            if (result) {
+                onScanComplete(result);
+                // create a popup or alert
+                alert(`Scan Complete! Found ${result.anomalies_found} potential anomalies.\nInsight: ${result.scan_insight}`);
+            }
+        } catch (e) {
+            alert("Scan Failed.");
+        } finally {
+            setScanning(false);
+        }
+    };
+
+    return (
+        <div className="leaflet-bottom leaflet-right">
+            <div className="leaflet-control leaflet-bar">
+                <button
+                    onClick={handleScan}
+                    disabled={scanning}
+                    className="flex items-center gap-2 bg-white p-2 text-sm font-bold shadow-md hover:bg-gray-50 disabled:opacity-70 text-blue-600"
+                    title="Run Satellite Vision Analysis"
+                >
+                    {scanning ? <Loader2 className="w-5 h-5 animate-spin" /> : <Scan className="w-5 h-5" />}
+                    {scanning ? 'Scanning...' : 'Satellite Scan'}
+                </button>
+            </div>
+        </div>
+    );
+}
+
 export default function LiveMap({ hotspots, selectedId, onSelect, center = [22.5937, 78.9629], zoom = 5 }: LiveMapProps) {
 
     const createPulseIcon = (status: string) => {
@@ -86,6 +128,7 @@ export default function LiveMap({ hotspots, selectedId, onSelect, center = [22.5
     };
 
     const selectedHotspot = hotspots.find(h => h.id === selectedId);
+    const [scanData, setScanData] = useState<SatelliteScanResponse | null>(null);
 
     return (
         <MapContainer
@@ -155,6 +198,34 @@ export default function LiveMap({ hotspots, selectedId, onSelect, center = [22.5
                                     </div>
                                 </div>
                             )}
+                        </div>
+                    </Popup>
+                </Marker>
+            ))}
+
+            <SatelliteScanner onScanComplete={setScanData} />
+
+            {/* Satellite Scan Results */}
+            {scanData?.events.map((evt, idx) => (
+                <Marker
+                    key={`scan-${idx}`}
+                    position={[evt.location[0], evt.location[1]]}
+                    icon={L.divIcon({
+                        className: 'satellite-marker',
+                        html: `<div class="w-6 h-6 rounded-none bg-purple-600 border-2 border-white shadow-lg flex items-center justify-center text-white">
+                                 !
+                               </div>`,
+                        iconSize: [24, 24]
+                    })}
+                >
+                    <Popup>
+                        <div className="p-1">
+                            <h4 className="font-bold text-purple-700 flex items-center gap-2">
+                                <AlertOctagon className="w-4 h-4" /> Satellite Detection
+                            </h4>
+                            <p className="text-sm font-semibold mt-1">{evt.type}</p>
+                            <p className="text-xs text-gray-600">Confidence: {(evt.confidence * 100).toFixed(1)}%</p>
+                            <p className="text-[10px] text-gray-400 mt-1">Source: {evt.source_tile}</p>
                         </div>
                     </Popup>
                 </Marker>
