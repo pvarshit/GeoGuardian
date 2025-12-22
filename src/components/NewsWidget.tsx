@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Newspaper, ExternalLink, Clock } from 'lucide-react';
+import { Newspaper, Clock } from 'lucide-react';
 
 interface Article {
     title: string;

@@ -6,7 +6,7 @@ import LiveMap, { type Hotspot } from '../components/LiveMap';
 import { fetchSensorFusion, searchAgent, fetchLiveHotspots, triggerSatelliteScan, type SatelliteScanResponse } from '../services/agentApi';
 import { AiChat } from '../components/AiChat';
 import { NewsWidget } from '../components/NewsWidget';
-import { Scan, Loader2, AlertTriangle } from 'lucide-react';
+import { Scan, Loader2 } from 'lucide-react';
 
 const INITIAL_HOTSPOTS: Hotspot[] = [
     {
@@ -139,6 +139,19 @@ export default function GlobalMap() {
                 forecast: (data as any).data?.forecast_3day || []
             } as Hotspot;
             setSearchResult(newHotspot);
+
+            // Add to list if not exists, or update
+            setHotspots(prev => {
+                const existingIndex = prev.findIndex(h => h.id === newHotspot.id || h.name.toLowerCase() === newHotspot.name.toLowerCase());
+                if (existingIndex >= 0) {
+                    // Update existing
+                    const updated = [...prev];
+                    updated[existingIndex] = newHotspot;
+                    return updated;
+                }
+                return [...prev, newHotspot];
+            });
+
             setSelectedHotspot(newHotspot);
         }
         setIsSearching(false);
@@ -261,11 +274,11 @@ export default function GlobalMap() {
                 {/* Map Area */}
                 <main className="flex-1 relative bg-[#0B1121] flex items-center justify-center overflow-hidden z-0">
                     <LiveMap
-                        hotspots={searchResult ? [searchResult] : hotspots}
+                        hotspots={hotspots}
                         onSelect={setSelectedHotspot}
                         selectedId={selectedHotspot?.id}
-                        center={viewCenter || (searchResult ? [searchResult.lat, selectedHotspot!.lng] : undefined)}
-                        zoom={searchResult ? 10 : (viewCenter ? 5 : undefined)}
+                        center={selectedHotspot ? [selectedHotspot.lat, selectedHotspot.lng] : (viewCenter || [22.5937, 78.9629])}
+                        zoom={selectedHotspot ? 10 : (viewCenter ? 5 : 5)}
                     />
 
                     {/* Quick City Selector (Top Right) */}
@@ -366,7 +379,7 @@ export default function GlobalMap() {
                                                 <>
                                                     {Math.round(agentData.weather.temperature_c)}°C
                                                     <span className="text-[10px] text-gray-500 font-normal">
-                                                        {agentData.weather.description.includes('RealFeel') ?
+                                                        {agentData.weather.description?.includes('RealFeel') ?
                                                             agentData.weather.description.match(/\(RealFeel.*?\)/)?.[0] :
                                                             ''}
                                                     </span>

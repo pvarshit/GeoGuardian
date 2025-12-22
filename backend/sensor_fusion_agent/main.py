@@ -266,6 +266,7 @@ async def fetch_weather(client: httpx.AsyncClient, lat: float, lon: float):
             "wind_speed": round(random.uniform(2, 10), 1), 
             "wind_deg": random.randint(0, 360), 
             "clouds": random.randint(10, 80), 
+            "description": "Partly Cloudy", 
             "dt": int(datetime.utcnow().timestamp())
         }
 
@@ -283,6 +284,7 @@ async def fetch_weather(client: httpx.AsyncClient, lat: float, lon: float):
             "wind_speed": round(random.uniform(2, 10), 1), 
             "wind_deg": random.randint(0, 360), 
             "clouds": random.randint(10, 80), 
+            "description": "API Error Fallback",
             "dt": int(datetime.utcnow().timestamp())
         }
     data = r.json()
@@ -373,7 +375,7 @@ app = FastAPI(
 # Enable CORS for frontend integration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"], # Allow all for prototype
+    allow_origins=["http://localhost:3000", "http://localhost:5173", "*"], # Explicitly allow frontend
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

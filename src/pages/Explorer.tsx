@@ -1,12 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
-    Download, Search, Filter, Calendar,
+    Download, Calendar,
     TrendingUp, Activity, AlertTriangle, Wind, BarChart2, Thermometer, Droplets
 } from 'lucide-react';
 import {
     AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
-    BarChart, Bar, Legend, ScatterChart, Scatter, ZAxis
+    BarChart, Bar, Legend, ScatterChart, Scatter
 } from 'recharts';
 
 interface HistoryData {

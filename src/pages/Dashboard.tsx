@@ -8,9 +8,9 @@ import { MOCK_INSIGHTS } from '../mock/insights';
 import { Wind, Activity, FileText, Layers, Info } from 'lucide-react';
 
 const DASHBOARD_HOTSPOTS: Hotspot[] = [
-    { id: 'h1', name: 'New Delhi', aqi: 450, pm25: 350, status: 'Critical', lat: 28.6139, lng: 77.2090 },
-    { id: 'h6', name: 'Hyderabad', aqi: 150, pm25: 85, status: 'Moderate', lat: 17.3850, lng: 78.4867 },
-    { id: 'h2', name: 'Mumbai', aqi: 180, pm25: 120, status: 'Moderate', lat: 19.0760, lng: 72.8777 },
+    { id: 'h1', name: 'New Delhi', aqi: 450, pm25: 350, pm10: 400, temperature: 15, description: 'Severe pollution', status: 'Critical', lat: 28.6139, lng: 77.2090 },
+    { id: 'h6', name: 'Hyderabad', aqi: 150, pm25: 85, pm10: 100, temperature: 28, description: 'Moderate conditions', status: 'Moderate', lat: 17.3850, lng: 78.4867 },
+    { id: 'h2', name: 'Mumbai', aqi: 180, pm25: 120, pm10: 150, temperature: 30, description: 'Coastal smog', status: 'Moderate', lat: 19.0760, lng: 72.8777 },
 ];
 
 export default function Dashboard() {
