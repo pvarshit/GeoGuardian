@@ -160,6 +160,8 @@ export interface SatelliteScanResponse {
         source_tile: string;
     }[];
     scan_insight: string;
+    image_base64?: string;
+    preview_images?: string[];
 }
 
 export async function triggerSatelliteScan(lat: number, lon: number, name: string): Promise<SatelliteScanResponse | null> {
@@ -174,5 +176,55 @@ export async function triggerSatelliteScan(lat: number, lon: number, name: strin
     } catch (error) {
         console.error("Satellite Scan Error:", error);
         return null;
+    }
+}
+
+export interface SatellitePreview {
+    image: string;
+    bounds: [[number, number], [number, number]];
+}
+
+export async function getSatellitePreview(lat: number, lon: number): Promise<SatellitePreview | null> {
+    try {
+        const response = await fetch(`${SATELLITE_API_URL}/preview`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ lat, lon, zoom: 18 }),
+        });
+        if (!response.ok) return null;
+        const data = await response.json();
+        return {
+            image: data.image_base64,
+            bounds: data.bounds
+        };
+    } catch (error) {
+        console.warn("Preview fetch failed:", error);
+        return null;
+    }
+}
+
+export interface ZonePreview {
+    name: string;
+    image: string;
+    bounds: [[number, number], [number, number]];
+}
+
+export async function getSatellitePreviewZones(lat: number, lon: number): Promise<ZonePreview[]> {
+    try {
+        const response = await fetch(`${SATELLITE_API_URL}/preview_multi`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ lat, lon, zoom: 18 }),
+        });
+        if (!response.ok) return [];
+        const data = await response.json();
+        return data.zones.map((z: any) => ({
+            name: z.name,
+            image: z.image_base64,
+            bounds: z.bounds
+        }));
+    } catch (error) {
+        console.warn("Multi-Preview fetch failed:", error);
+        return [];
     }
 }

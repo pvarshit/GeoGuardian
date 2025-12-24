@@ -375,7 +375,12 @@ app = FastAPI(
 # Enable CORS for frontend integration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:5173", "*"], # Explicitly allow frontend
+    allow_origins=[
+        "http://localhost:3000",
+        "http://localhost:5173",
+        "http://127.0.0.1:3000",
+        "http://127.0.0.1:5173"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -469,8 +474,15 @@ async def search_city(q: str = Query(..., min_length=1)):
         )
 
         # 3. Fetch AccuWeather for Forecast & RealFeel
-        import accuweather_client
-        accu_data = await accuweather_client.fetch_accuweather_data(client, coords["name"])
+        try:
+            from . import accuweather_client
+            accu_data = await accuweather_client.fetch_accuweather_data(client, coords["name"])
+        except ImportError:
+            print("Could not import accuweather_client. Is it in the same package?")
+            accu_data = None
+        except Exception as e:
+            print(f"AccuWeather fetch failed: {e}")
+            accu_data = None
 
     ts = max(aq_data["dt"], w_data["dt"])
     dispersion = compute_dispersion_score(

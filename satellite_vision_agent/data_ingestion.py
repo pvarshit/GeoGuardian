@@ -1,5 +1,6 @@
 import os
 import json
+import base64
 import asyncio
 import numpy as np
 import requests
@@ -50,6 +51,11 @@ class ScanRequest(BaseModel):
     zoom: int = 16
     grid_width: int = 15 # Scans a 15x15 grid (225 tiles)
 
+class PreviewRequest(BaseModel):
+    lat: float
+    lon: float
+    zoom: int = 15 # Default preview zoom
+
 class PollutionEvent(BaseModel):
     location: List[float] # [lat, lon]
     type: str
@@ -62,7 +68,10 @@ class ScanResponse(BaseModel):
     tiles_scanned: int
     anomalies_found: int
     events: List[PollutionEvent]
+    events: List[PollutionEvent]
     scan_insight: str # New field for detailed feedback
+    image_base64: Optional[str] = None
+    preview_images: List[str] = []
 
 # --- CORE LOGIC ---
 
@@ -157,6 +166,8 @@ def perform_satellite_scan(config: ScanRequest):
     
     print(f"--- STARTING STREAM SCAN ({total_tiles} tiles) for {config.name} ---")
     
+    center_image_b64 = None
+    
     for x in range(xtile_center - offset, xtile_center + offset + 1):
         for y in range(ytile_center - offset, ytile_center + offset + 1):
             processed += 1
@@ -168,6 +179,10 @@ def perform_satellite_scan(config: ScanRequest):
                 resp = requests.get(url, headers=headers, timeout=5)
                 if resp.status_code != 200: continue
                 
+                # Capture Center Tile for Preview
+                if x == xtile_center and y == ytile_center:
+                    center_image_b64 = base64.b64encode(resp.content).decode('utf-8')
+
                 img = Image.open(BytesIO(resp.content)).convert('RGB')
                 
                 # 2. Analyze In-Memory (Pre-Screening)
@@ -237,7 +252,7 @@ def perform_satellite_scan(config: ScanRequest):
                     "source_tile": tile_data['tile_name']
                 })
 
-    return pollution_events
+    return pollution_events, center_image_b64
 
 # --- API ---
 
@@ -263,6 +278,7 @@ async def trigger_scan(request: ScanRequest):
         
         all_events = []
         total_tiles_count = 0
+        preview_images = []
         
         print(f"--- STARTING MULTI-POINT SCAN ({len(offsets)} zones) for {request.name} ---")
         
@@ -277,9 +293,16 @@ async def trigger_scan(request: ScanRequest):
             )
             
             # Run scan
-            events = perform_satellite_scan(sub_req)
+            events, img_b64 = perform_satellite_scan(sub_req)
             if events:
                 all_events.extend(events)
+            
+            if img_b64:
+                 preview_images.append(img_b64)
+            
+            # Use the image from the first/center zone as main background
+            if i == 0 and img_b64:
+                 request_image = img_b64
             
             total_tiles_count += request.grid_width * request.grid_width
         
@@ -302,12 +325,95 @@ async def trigger_scan(request: ScanRequest):
             tiles_scanned=total_tiles_count, 
             anomalies_found=len(all_events),
             events=[PollutionEvent(**e) for e in all_events],
-            scan_insight=insight
+            scan_insight=insight,
+            image_base64=request_image if 'request_image' in locals() else None,
+            preview_images=preview_images
         )
     except Exception as e:
         import traceback
         traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/preview")
+async def get_preview(request: PreviewRequest):
+    # Retrieve SINGLE center tile (keeping this for Explorer.tsx backwards compat or single view)
+    return await fetch_single_tile(request)
+
+@app.post("/preview_multi")
+async def get_preview_multi(request: PreviewRequest):
+    try:
+        # Define 3 Zones matching the Scan Logic
+        offsets = [
+            (0, 0, "Center Zone"),
+            (0.04, 0.04, "North-East Zone"),
+            (-0.04, -0.04, "South-West Zone")
+        ]
+        
+        results = []
+        target_zoom = request.zoom if request.zoom > 15 else 18
+        
+        for lat_off, lon_off, label in offsets:
+            # Construct sub-request
+            sub_req = PreviewRequest(
+                lat=request.lat + lat_off,
+                lon=request.lon + lon_off,
+                zoom=target_zoom
+            )
+            try:
+                # Reuse fetch logic
+                data = await fetch_single_tile(sub_req)
+                data["name"] = label
+                results.append(data)
+            except Exception as e:
+                print(f"Failed to fetch {label}: {e}")
+                
+        return {"status": "ok", "zones": results}
+
+    except Exception as e:
+        print(f"Multi-preview fetch failed: {e}")
+        raise HTTPException(status_code=500, detail=str(e))
+
+async def fetch_single_tile(request: PreviewRequest):
+    try:
+        # User requested "Zoomed Image used for analysis".
+        # We'll default to 18 if not specified, which is much higher detail.
+        target_zoom = request.zoom if request.zoom > 15 else 18
+        
+        # Calculate Tile XYZ for the single center point
+        n = 2.0 ** target_zoom
+        xtile = int((request.lon + 180.0) / 360.0 * n)
+        ytile = int((1.0 - np.log(np.tan(np.radians(request.lat)) + 1/np.cos(np.radians(request.lat))) / np.pi) / 2.0 * n)
+        
+        url = f"https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{target_zoom}/{ytile}/{xtile}"
+        
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        resp = requests.get(url, headers=headers, timeout=5)
+        
+        if resp.status_code == 200:
+            b64_img = base64.b64encode(resp.content).decode('utf-8')
+            
+            # Calculate Bounds for ImageOverlay
+            # Top-Left
+            lon_left = xtile / n * 360.0 - 180.0
+            lat_rad_top = np.arctan(np.sinh(np.pi * (1 - 2 * ytile / n)))
+            lat_top = np.degrees(lat_rad_top)
+            
+            # Bottom-Right
+            lon_right = (xtile + 1) / n * 360.0 - 180.0
+            lat_rad_bottom = np.arctan(np.sinh(np.pi * (1 - 2 * (ytile + 1) / n)))
+            lat_bottom = np.degrees(lat_rad_bottom)
+            
+            return {
+                "status": "ok", 
+                "image_base64": b64_img,
+                "bounds": [[lat_top, lon_left], [lat_bottom, lon_right]],
+                "zoom": target_zoom
+            }
+        else:
+            raise HTTPException(status_code=404, detail="Tile not found")
+            
+    except Exception as e:
+        raise e
 
 @app.get("/health")
 def health():
