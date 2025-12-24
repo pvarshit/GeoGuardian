@@ -52,3 +52,16 @@ python satellite_vision_agent/data_ingestion.py
 ```bash
 npm run dev
 ```
+
+## Troubleshooting
+
+### Port 8200 Error (Address already in use)
+If you see `[Errno 10048] error while attempting to bind on address ... 8200`, it means the Satellite Vision Agent is already running. 
+
+> [!IMPORTANT]
+> `npm start` automatically starts both the Sensor Fusion Agent (8100) and Satellite Vision Agent (8200).
+> **You do NOT need to run `python data_ingestion.py` manually if `npm start` is used.**
+
+To fix:
+1. Stop the running `npm start` process (Ctrl+C).
+2. OR, to run manually, stop `npm start` and run the python script separately.

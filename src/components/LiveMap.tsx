@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { MapContainer, TileLayer, Marker, useMap, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, useMap, Popup, ImageOverlay } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { clsx } from 'clsx';
@@ -48,6 +48,10 @@ interface LiveMapProps {
     onSelect: (hotspot: Hotspot) => void;
     center?: [number, number];
     zoom?: number;
+    overlayImage?: {
+        url: string;
+        bounds: [[number, number], [number, number]];
+    } | null;
 }
 
 // Helper to fly to location
@@ -73,34 +77,33 @@ function SatelliteScanner({ onScanComplete }: { onScanComplete: (data: Satellite
             const result = await triggerSatelliteScan(center.lat, center.lng, `LiveMap Scan ${center.lat.toFixed(2)},${center.lng.toFixed(2)}`);
             if (result) {
                 onScanComplete(result);
-                // create a popup or alert
-                alert(`Scan Complete! Found ${result.anomalies_found} potential anomalies.\nInsight: ${result.scan_insight}`);
             }
         } catch (e) {
-            alert("Scan Failed.");
+            console.error("Scan failed", e);
         } finally {
             setScanning(false);
         }
     };
 
     return (
-        <div className="leaflet-bottom leaflet-right">
-            <div className="leaflet-control leaflet-bar">
+        <div className="leaflet-top leaflet-right !mt-20">
+            {/* Moved slightly down to not conflict with other controls if any */}
+            <div className="leaflet-control leaflet-bar border-0 shadow-xl">
                 <button
                     onClick={handleScan}
                     disabled={scanning}
-                    className="flex items-center gap-2 bg-white p-2 text-sm font-bold shadow-md hover:bg-gray-50 disabled:opacity-70 text-blue-600"
+                    className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-lg font-bold shadow-lg hover:shadow-blue-500/30 transition-all disabled:opacity-70 disabled:cursor-not-allowed group border border-white/10"
                     title="Run Satellite Vision Analysis"
                 >
-                    {scanning ? <Loader2 className="w-5 h-5 animate-spin" /> : <Scan className="w-5 h-5" />}
-                    {scanning ? 'Scanning...' : 'Satellite Scan'}
+                    {scanning ? <Loader2 className="w-4 h-4 animate-spin" /> : <Scan className="w-4 h-4 group-hover:rotate-90 transition-transform" />}
+                    <span className="text-xs uppercase tracking-wider">{scanning ? 'Scanning Sector...' : 'Run Area Scan'}</span>
                 </button>
             </div>
         </div>
     );
 }
 
-export default function LiveMap({ hotspots, selectedId, onSelect, center = [22.5937, 78.9629], zoom = 5 }: LiveMapProps) {
+export default function LiveMap({ hotspots, selectedId, onSelect, center = [22.5937, 78.9629], zoom = 5, overlayImage }: LiveMapProps) {
 
     const createPulseIcon = (status: string) => {
         let colorClass = '';
@@ -144,6 +147,15 @@ export default function LiveMap({ hotspots, selectedId, onSelect, center = [22.5
             <TileLayer
                 url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}"
             />
+
+            {overlayImage && (
+                <ImageOverlay
+                    url={`data:image/jpeg;base64,${overlayImage.url}`}
+                    bounds={overlayImage.bounds}
+                    opacity={0.8}
+                    zIndex={10}
+                />
+            )}
 
             <MapUpdater center={selectedHotspot ? [selectedHotspot.lat, selectedHotspot.lng] : null} />
 
@@ -204,6 +216,36 @@ export default function LiveMap({ hotspots, selectedId, onSelect, center = [22.5
             ))}
 
             <SatelliteScanner onScanComplete={setScanData} />
+
+            {/* Satellite Live Feed Panel */}
+            {scanData?.preview_images && scanData.preview_images.length > 0 && (
+                <div className="leaflet-bottom leaflet-left !mb-8 !ml-4 pointer-events-auto z-[1000]">
+                    <div className="bg-gray-900/90 backdrop-blur-xl border border-white/20 p-4 rounded-xl shadow-2xl max-w-sm">
+                        <h4 className="text-xs font-bold text-brand-primary uppercase mb-3 flex items-center gap-2">
+                            <Scan className="w-4 h-4" /> Live Satellite Feed
+                        </h4>
+                        <div className="grid grid-cols-3 gap-2">
+                            {scanData.preview_images.map((img, idx) => (
+                                <div key={idx} className="relative group">
+                                    <div className="aspect-square rounded-lg overflow-hidden border border-white/30 hover:border-brand-primary transition-colors cursor-pointer">
+                                        <img
+                                            src={`data:image/jpeg;base64,${img}`}
+                                            className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+                                            alt={`Zone ${idx + 1}`}
+                                        />
+                                    </div>
+                                    <span className="absolute bottom-1 right-1 text-[8px] font-bold bg-black/60 text-white px-1 rounded">
+                                        ZONE {idx + 1}
+                                    </span>
+                                </div>
+                            ))}
+                        </div>
+                        <p className="text-[10px] text-gray-400 mt-2 leading-tight">
+                            Real-time optical capture from Sentinel-2 / WorldImagery. Scanning adjacent sectors.
+                        </p>
+                    </div>
+                </div>
+            )}
 
             {/* Satellite Scan Results */}
             {scanData?.events.map((evt, idx) => (

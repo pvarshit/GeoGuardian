@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar';
 import { MapPin, Info, X, Layers, Wind, Search, ArrowLeft } from 'lucide-react';
 import { clsx } from 'clsx';
 import LiveMap, { type Hotspot } from '../components/LiveMap';
-import { fetchSensorFusion, searchAgent, fetchLiveHotspots, triggerSatelliteScan, type SatelliteScanResponse } from '../services/agentApi';
+import { fetchSensorFusion, searchAgent, fetchLiveHotspots, triggerSatelliteScan, getSatellitePreview, getSatellitePreviewZones, type SatelliteScanResponse } from '../services/agentApi';
 import { AiChat } from '../components/AiChat';
 import { NewsWidget } from '../components/NewsWidget';
 import { Scan, Loader2 } from 'lucide-react';
@@ -45,7 +45,10 @@ export default function GlobalMap() {
     const [searchResult, setSearchResult] = useState<Hotspot | null>(null);
     const [hotspots, setHotspots] = useState<Hotspot[]>(INITIAL_HOTSPOTS);
     const [isScanning, setIsScanning] = useState(false);
+
     const [scanResult, setScanResult] = useState<SatelliteScanResponse | null>(null);
+    const [previewImage, setPreviewImage] = useState<{ image: string, bounds: [[number, number], [number, number]] } | null>(null);
+    const [previewZones, setPreviewZones] = useState<{ name: string, image: string }[]>([]);
 
     // Fetch live hotspots on mount
     useEffect(() => {
@@ -73,14 +76,29 @@ export default function GlobalMap() {
 
     // Fetch live data from Sensor Fusion Agent when a hotspot is selected
     useEffect(() => {
-        if (selectedHotspot && !selectedHotspot.id.startsWith('search-')) {
-            setAgentData(null); // Reset previous data
-            fetchSensorFusion(selectedHotspot.lat, selectedHotspot.lng)
-                .then(data => {
-                    if (data) {
-                        setAgentData(data);
-                    }
-                });
+        if (selectedHotspot) {
+            const isSearch = selectedHotspot.id.startsWith('search-');
+
+            if (!isSearch) setAgentData(null);
+            setPreviewImage(null);
+            setPreviewZones([]);
+
+            // 1. Fetch Sensor Data (only for non-search)
+            if (!isSearch) {
+                fetchSensorFusion(selectedHotspot.lat, selectedHotspot.lng)
+                    .then(data => {
+                        if (data) {
+                            setAgentData(data);
+                        }
+                    });
+            }
+
+            // 2. Fetch Satellite Preview Immediately (Single + Multi)
+            getSatellitePreview(selectedHotspot.lat, selectedHotspot.lng)
+                .then(data => setPreviewImage(data));
+
+            getSatellitePreviewZones(selectedHotspot.lat, selectedHotspot.lng)
+                .then(zones => setPreviewZones(zones));
         }
     }, [selectedHotspot]);
 
@@ -278,7 +296,8 @@ export default function GlobalMap() {
                         onSelect={setSelectedHotspot}
                         selectedId={selectedHotspot?.id}
                         center={selectedHotspot ? [selectedHotspot.lat, selectedHotspot.lng] : (viewCenter || [22.5937, 78.9629])}
-                        zoom={selectedHotspot ? 10 : (viewCenter ? 5 : 5)}
+                        zoom={selectedHotspot ? 18 : (viewCenter ? 5 : 5)}
+                        overlayImage={previewImage ? { url: previewImage.image, bounds: previewImage.bounds } : null}
                     />
 
                     {/* Quick City Selector (Top Right) */}
@@ -428,7 +447,36 @@ export default function GlobalMap() {
                                 <h4 className="text-xs font-bold text-gray-500 uppercase mb-2 flex items-center gap-2">
                                     <Layers className="w-3 h-3" /> Agent Insights (Live)
                                 </h4>
-                                <p className="text-sm text-gray-300 leading-relaxed">
+                                <div className="text-sm text-gray-300 leading-relaxed">
+                                    {/* Active Scan Targets - Multi-Zone Preview */}
+                                    {previewZones.length > 0 && !scanResult && (
+                                        <div className="mb-4 animate-fade-in bg-gray-900/80 border border-white/20 rounded-xl p-3 backdrop-blur-md">
+                                            <div className="flex items-center gap-2 mb-3 text-brand-secondary">
+                                                <Scan className="w-5 h-5 animate-pulse" />
+                                                <h3 className="font-heading font-bold text-sm">Active Scan Targets</h3>
+                                            </div>
+                                            <div className="grid grid-cols-3 gap-2">
+                                                {previewZones.map((zone, idx) => (
+                                                    <div key={idx} className="space-y-1 group cursor-pointer">
+                                                        <div className="h-20 w-full rounded-lg overflow-hidden border border-white/10 relative">
+                                                            <img
+                                                                src={`data:image/jpeg;base64,${zone.image}`}
+                                                                alt={zone.name}
+                                                                className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-all duration-500"
+                                                            />
+                                                            {/* Grid Overlay Effect */}
+                                                            <div className="absolute inset-0 bg-[url('https://upload.wikimedia.org/wikipedia/commons/1/1a/Grid_transparent.png')] bg-[length:10px_10px] opacity-20"></div>
+                                                        </div>
+                                                        <p className="text-[10px] text-center text-gray-400 font-mono group-hover:text-white transition-colors">
+                                                            {zone.name} || Pending
+                                                        </p>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    )}
+
+                                    {/* Sensor Agent Data */}
                                     {agentData ? (
                                         <span className="animate-pulse-once">
                                             {agentData.agent_insight}
@@ -444,7 +492,7 @@ export default function GlobalMap() {
                                             <span className="text-brand-primary block mt-2 text-xs">Lat: {selectedHotspot.lat}, Lng: {selectedHotspot.lng}</span>
                                         </>
                                     )}
-                                </p>
+                                </div>
                             </div>
 
                             {/* News Widget Integration */}
@@ -458,6 +506,24 @@ export default function GlobalMap() {
                                     </h4>
                                     {scanResult && <span className="text-[10px] text-green-400">Scan Complete</span>}
                                 </div>
+
+                                {/* Instant Preview Section */}
+                                {!scanResult && previewImage && (
+                                    <div className="mb-3 animate-fade-in">
+                                        <div className="w-full h-32 rounded-lg overflow-hidden border border-white/20 bg-black relative group">
+                                            <img
+                                                src={`data:image/jpeg;base64,${previewImage.image}`}
+                                                alt="Live Satellite View"
+                                                className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-all duration-700 group-hover:scale-110"
+                                            />
+                                            <div className="absolute bottom-0 left-0 right-0 p-2 bg-gradient-to-t from-black/80 to-transparent">
+                                                <span className="text-[10px] text-white font-bold flex items-center gap-1">
+                                                    <Scan className="w-3 h-3 text-brand-secondary" /> Live Feed
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                )}
 
                                 {!scanResult ? (
                                     <button
@@ -476,9 +542,25 @@ export default function GlobalMap() {
                                                 {scanResult.anomalies_found} Anomalies
                                             </span>
                                         </div>
-                                        <p className="text-xs text-gray-300 leading-relaxed italic border-l-2 border-brand-secondary pl-2">
-                                            "{scanResult.scan_insight}"
-                                        </p>
+
+                                        <div className="flex gap-3 items-start">
+                                            {scanResult.image_base64 && (
+                                                <div className="w-20 h-20 shrink-0 rounded-lg overflow-hidden border border-white/20 bg-black relative group cursor-pointer">
+                                                    <img
+                                                        src={`data:image/jpeg;base64,${scanResult.image_base64}`}
+                                                        alt="Sat Preview"
+                                                        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-150"
+                                                    />
+                                                    <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                                                        <Scan className="w-4 h-4 text-white" />
+                                                    </div>
+                                                </div>
+                                            )}
+                                            <p className="flex-1 text-xs text-gray-300 leading-relaxed italic border-l-2 border-brand-secondary pl-2">
+                                                "{scanResult.scan_insight}"
+                                            </p>
+                                        </div>
+
                                         <button
                                             onClick={() => setScanResult(null)}
                                             className="mt-2 text-[10px] text-gray-500 hover:text-white underline w-full text-center"
